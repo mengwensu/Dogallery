@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Dane",
+        "breed": "Working"
+    },
+    {
+        "name": "Boxer",
+        "breed": "Working"
+    },
+    {
+        "name": "Bulldog",
+        "breed": "Working"
+    },
+    {
+        "name": "Inu",
+        "breed": "Working"
+    },
+    {
+        "name": "Labrador Retriever",
+        "breed": "Sporting"
+    },
+    {
+        "name": "Spaniel",
+        "breed": "Sporting"
+    },
+    {
+        "name": "Setter",
+        "breed": "Sporting"
+    },
+    {
+        "name": "Laika",
+        "breed": "Sporting"
+    },
+    {
+        "name": "Bichon",
+        "breed": "NonSporting"
+    },
+    {
+        "name": "Dalmation",
+        "breed": "NonSporting"
+    },
+    {
+        "name": "Chow Chow",
+        "breed": "NonSporting"
+    },
+    {
+        "name": "Poodle",
+        "breed": "NonSporting"
+    },
+    {
+        "name": "German Shepard",
+        "breed": "Herding"
+    },
+    {
+        "name": "Collie",
+        "breed": "Herding"
+    },
+    {
+        "name": "Sheepdog",
+        "breed": "Herding"
+    },
+    {
+        "name": "Corgi",
+        "breed": "Herding"
+    },
+    {
+        "name": "Beagle",
+        "breed": "Hound"
+    },
+    {
+        "name": "Dachshund",
+        "breed": "Hound"
+    },
+    {
+        "name": "Basenji",
+        "breed": "Hound"
+    },
+    {
+        "name": "Coonhound",
+        "breed": "Hound"
+    },
+    {
+        "name": "Scottish Terrier",
+        "breed": "Terrier"
+    },
+    {
+        "name": "Boston Terrier",
+        "breed": "Terrier"
+    },
+    {
+        "name": "Norwich Terrier",
+        "breed": "Terrier"
+    },
+    {
+        "name": "Bull Terrier",
+        "breed": "Terrier"
+    },
+    {
+        "name": "Chihuahua",
+        "breed": "Toy"
+    },
+    {
+        "name": "Pug",
+        "breed": "Toy"
+    },
+    {
+        "name": "Pomeranian",
+        "breed": "Toy"
+    },
+    {
+        "name": "Havanese",
+        "breed": "Toy"
+    }
+]

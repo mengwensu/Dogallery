@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* Home Page Styling*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+
+.btn{
+  background: transparent;
+  color: #636769;
+  font-weight: 300;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 20px;
+  position: relative;
+  margin: 20px;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  z-index: 3;
+}
+
+.homeCircle {
+
+    width: 80vh;
+    height: 80vh;
+    background: #FDA65D;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    transform: translate(-20%, -25%);
+}
+/* @media screen and (max-width: 1280px) { */
+
+  .title1 {
+    position: relative;
+    text-align: left;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+/* } */
+/* @media screen and (max-width: 1920px) {
+
+  .title1 {
+    position: relative;
+    text-align: left;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+} */
+/* @media screen and (max-width: 1280px) { */
+
+  .title2 {
+    position: relative;
+    text-align: left;
+    color: #F8E2CF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+  }
+/* } */
+/* @media screen and (max-width: 1920px) {
+
+  .title2 {
+    position: relative;
+    text-align: left;
+    color: #F8E2CF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    margin: 0;
+  }
+} */
+.welcome {
+  width: 40vh;
+  height: 40vh;
+  position: relative;
+  flex-direction:column;
+  margin-top: 30vh;
+  margin-left: 10vh;
+}
+.exploreButton {
+  width: 30vh;
+  background-color: #FFD8A9;
+  color: black;
+  font-weight: 100;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 15px;
+  position: relative;
+  margin: 4px 2px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Category Page Styling */
+.Categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoryCircle {
+  width: 90vw;
+  height: 90vw;
+  background: #FAF2EB;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: -10% auto;
+  overflow: hidden;
+  /* line-height: 2; */
+  position: relative;
+  transform: translate(0, -90%);
+  z-index: 1;
+
+}
+
+.categoryTitle {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color: #FDA65D;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  z-index: 2;
+}
+
+.searchBar{
+  position: relative;
+  background: none;
+  z-index: 2;
+  border-radius: 15px;
+  border: 1px solid gray;
+  width: 400px;
+  padding: 5px 20px;
+  opacity: 70%;
+
+}
+.categoryTabs {
+  z-index: 2;
+
+}
+.tabs {
+  color: #636769;
+  margin : 0 50px 0 50px;
+  background: none;
+  border: none;
+  font-size: medium;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+.App {
+  background: #F8E2CF;
+  min-height: 100vh;
+  min-width: 100vw;
+}

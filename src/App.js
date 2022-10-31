@@ -5,8 +5,8 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      <Categories/>
+      <Home/>
+      {/* <Categories/> */}
     </div>
   );
 }

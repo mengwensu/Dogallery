@@ -1,11 +1,13 @@
 [
     {
         "name": "Dane",
-        "breed": "Working"
+        "breed": "Working",
+        "url": "https://www.akc.org/wp-content/uploads/2017/11/Great-Dane-On-White-01.jpg"
     },
     {
         "name": "Boxer",
-        "breed": "Working"
+        "breed": "Working",
+        "url": "https://cdn-fastly.petguide.com/media/2022/02/28/8263162/boxer.jpg?size=720x845&nocrop=1"
     },
     {
         "name": "Bulldog",

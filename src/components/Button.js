@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import propTypes from 'prop-types'
 const Button = ({text}) => {
   const onClick = () => {

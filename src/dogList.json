@@ -1,6 +1,6 @@
 [
     {
-        "name": "Dane",
+        "name": "Great Dane",
         "breed": "Working",
         "url": "https://www.akc.org/wp-content/uploads/2017/11/Great-Dane-On-White-01.jpg",
         "3dmodel": "./models/dane.gltb",
@@ -40,11 +40,11 @@
         "breed": "Sporting"
     },
     {
-        "name": "Bichon",
+        "name": "Dalmatian",
         "breed": "NonSporting"
     },
     {
-        "name": "Dalmatian",
+        "name": "Bichon",
         "breed": "NonSporting"
     },
     {
@@ -74,7 +74,7 @@
         "url": "https://images.wagwalkingweb.com/media/breed/pembroke-welsh-corgi/appearance/pembroke-welsh-corgi.png"
     },
     {
-        "name": "Beagle",
+        "name": "Bloodhound",
         "breed": "Hound"
     },
     {
@@ -96,7 +96,7 @@
         "url": "https://breed-assets.wisdompanel.com/dog/scottish-terrier/Scottish_Terrier_Color.png"
     },
     {
-        "name": "Boston Terrier",
+        "name": "Bull Terrier",
         "breed": "Terrier"
     },
     {
@@ -104,17 +104,17 @@
         "breed": "Terrier"
     },
     {
-        "name": "Bull Terrier",
+        "name": "Boston Terrier",
         "breed": "Terrier"
     },
     {
-        "name": "Chihuahua",
+        "name": "Pug",
         "breed": "Toy"
+        "url": "https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=2000"
     },
     {
-        "name": "Pug",
+        "name": "Chihuahua",
         "breed": "Toy",
-        "url": "https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=2000"
     },
     {
         "name": "Pomeranian",

@@ -29,8 +29,8 @@
 
 .homeCircle {
 
-    width: 80vw;
-    height: 80vw;
+    width: 60vw;
+    height: 60vw;
     background: #FDA65D;
     border-radius: 50%;
     display: flex;
@@ -39,7 +39,7 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    transform: translate(-20%, -25%);
+    transform: translate(-25%, -40%);
 }
 /* @media screen and (max-width: 1280px) { */
 
@@ -47,7 +47,7 @@
     position: relative;
     text-align: left;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -72,7 +72,7 @@
     text-align: left;
     color: #F8E2CF;
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 800;
     margin: 0;
   }
@@ -90,18 +90,20 @@
   }
 } */
 .welcome {
-  width: 40vh;
-  height: 40vh;
+  width: 25vw;
+  height: 25vw;
   position: relative;
   flex-direction:column;
-  margin-top: 30vh;
-  margin-left: 10vh;
+  margin-top: 20vw;
+  margin-left: 10vw;
 }
 .homeMessage {
   color: white;
+  margin-top: 0;
 }
 .exploreButton {
-  width: 30vh;
+  width: 80%;
+  height: 60px;
   background-color: #FFD8A9;
   color: black;
   font-weight: 100;
@@ -128,8 +130,8 @@
   align-items: center;
 }
 .categoryCircle {
-  width: 90vw;
-  height: 90vw;
+  width: 100vw;
+  height: 100vw;
   /* min-width: 1000px;
   min-height: 1000px; */
   background: #FAF2EB;
@@ -137,11 +139,11 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin: -20%;
+  margin: -30%;
   overflow: hidden;
   position: relative;
   transform: translate(0, -120%);
-  z-index: ;
+  z-index: 1;
 }
 
 .categoryTitle {
@@ -241,11 +243,12 @@
 /* Display Page Styling */
 .Display {
   width: 100%;
-  height: 100%;
+  height: 200vh;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: hidden;
+  margin: 0;
 }
 .displayTabs {
   margin: 30px;
@@ -259,8 +262,8 @@
   margin-left: 1%;
 }
 .displayIcon {
-  width: 50vw;
-  height: 50vw;
+  width: 45vw;
+  height: 45vw;
   color: #FAF2EB;
   border-radius: 10%;
   background-color: #FAF2EB;
@@ -275,7 +278,7 @@
 .boxContent {
   width: 40vw;
   height: 40vw;
-  margin-left: 5%;
+  margin-left: 3%;
   z-index: 2;
 }
 .dogTitle{
@@ -285,9 +288,7 @@
 
 }
 .dogName {
-  
   font-size: 4vw;
-
   font-family: 'Oswald', sans-serif;
   color: #FDA65D;
   overflow-y: scroll;

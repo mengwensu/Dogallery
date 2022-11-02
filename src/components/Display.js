@@ -22,14 +22,15 @@ const Display = () => {
                     <div className='boxContent'>
                         <h2 className='dogName'>DOGNAME</h2> 
                         <div className='dogTitle'>
-                            <LoremIpsum p={4} />
+                            <LoremIpsum p={6} />
                         </div>
                         
                     </div>
+                </div>
+                {/* <div className="categoryCircle"></div> */}
+
             </div>
-            <div className="categoryCircle"></div>
         </div>
-    </div>
     
 
   )

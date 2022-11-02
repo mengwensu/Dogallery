@@ -20,7 +20,8 @@
     },
     {
         "name": "Labrador Retriever",
-        "breed": "Sporting"
+        "breed": "Sporting",
+        "url": "https://pngimg.com/uploads/labrador_retriever/labrador_retriever_PNG19.png"
     },
     {
         "name": "Spaniel",
@@ -44,7 +45,8 @@
     },
     {
         "name": "Chow Chow",
-        "breed": "NonSporting"
+        "breed": "NonSporting",
+        "url": "https://img.freepik.com/premium-photo/chow-chow-dog-white-background_65293-8590.jpg?w=2000"
     },
     {
         "name": "Poodle",
@@ -64,6 +66,35 @@
     },
     {
         "name": "Corgi",
+        "breed": "Herding",
+        "url": "https://images.wagwalkingweb.com/media/breed/pembroke-welsh-corgi/appearance/pembroke-welsh-corgi.png"
+    },
+    {
+        "name": "Corgi",
+        "breed": "Herding"
+    },
+    {
+        "name": "Corgi",
+        "breed": "Herding"
+    },
+    {
+        "name": "Corgi",
+        "breed": "Herding"
+    },
+    {
+        "name": "Corgi",
+        "breed": "Herding"
+    },
+    {
+        "name": "Corgi",
+        "breed": "Herding"
+    },
+    {
+        "name": "Corgi",
+        "breed": "Herding"
+    },
+    {
+        "name": "Corgi",
         "breed": "Herding"
     },
     {
@@ -72,7 +103,8 @@
     },
     {
         "name": "Dachshund",
-        "breed": "Hound"
+        "breed": "Hound",
+        "url": "https://www.dogtime.com/assets/uploads/2011/01/file_23020_dachshund-dog-breed.jpg"
     },
     {
         "name": "Basenji",
@@ -84,7 +116,8 @@
     },
     {
         "name": "Scottish Terrier",
-        "breed": "Terrier"
+        "breed": "Terrier",
+        "url": "https://breed-assets.wisdompanel.com/dog/scottish-terrier/Scottish_Terrier_Color.png"
     },
     {
         "name": "Boston Terrier",
@@ -104,7 +137,8 @@
     },
     {
         "name": "Pug",
-        "breed": "Toy"
+        "breed": "Toy",
+        "url": "https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=2000"
     },
     {
         "name": "Pomeranian",

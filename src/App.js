@@ -7,8 +7,8 @@ import Display from './components/Display';
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      <Categories/>
+      <Home/>
+      {/* <Categories/> */}
       {/* <Display/> */}
     </div>
   );

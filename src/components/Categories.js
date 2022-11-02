@@ -4,13 +4,14 @@ import dogList from "../dogList.json"
 import { useRef } from "react"
 import propTypes from 'prop-types'
 import DogIcon from './DogIcon';
+import { GoSearch } from "react-icons/go";
 const Categories = () => {
 
     const [current, setCurrent] = useState('Herding');
-    const handleClick = (breed) => {
-        current =  breed;
-        // console.log(current);
-    }
+    // const onClick = (breed) => {
+    //     current =  breed;
+    //     console.log(current);
+    // }
    
     return (
 
@@ -19,17 +20,20 @@ const Categories = () => {
 
             <div className='Categories'>
                 <h1 className="categoryTitle">CATEGORIES</h1>
-                
-                <input className="searchBar" type="search" placeholder="Search"></input>
+                <div className='searchSection'> 
+                    <input className="searchBar" type="search" placeholder="Search"></input>
+                    <button className='search'><GoSearch/></button>
+                </div>
+               
             
                 <div className="categoryTabs">
-                    <button className="tabs" id={current == 'Herding'? 'active' : 'inactive'} onClick={() => setCurrent('Herding')}>HERDING</button>
-                    <button className="tabs" id={current == 'Hound'? 'active' : 'inactive'} onClick={() => setCurrent('Hound')}>HOUND</button>
-                    <button className="tabs" id={current == 'Sporting'? 'active' : 'inactive'} onClick={() => setCurrent('Sporting')}>SPORTING</button>
-                    <button className="tabs" id={current == 'NonSporting'? 'active' : 'inactive'} onClick={() => setCurrent('NonSporting')}>NON-SPORTING</button>
-                    <button className="tabs" id={current == 'Working'? 'active' : 'inactive'} onClick={() => setCurrent('Working')}>WORKING</button>
-                    <button className="tabs" id={current == 'Terrier'? 'active' : 'inactive'} onClick={() => setCurrent('Terrier')}>TERRIER</button>
-                    <button className="tabs" id={current == 'Toy'? 'active' : 'inactive'} onClick={() => setCurrent('Toy')}>TOY</button>
+                    <button className="tabs" id={current === 'Herding'? 'active' : 'inactive'} onClick={() => setCurrent('Herding')}>HERDING</button>
+                    <button className="tabs" id={current === 'Hound'? 'active' : 'inactive'} onClick={() => setCurrent('Hound')}>HOUND</button>
+                    <button className="tabs" id={current === 'Sporting'? 'active' : 'inactive'} onClick={() => setCurrent('Sporting')}>SPORTING</button>
+                    <button className="tabs" id={current === 'NonSporting'? 'active' : 'inactive'} onClick={() => setCurrent('NonSporting')}>NON-SPORTING</button>
+                    <button className="tabs" id={current === 'Working'? 'active' : 'inactive'} onClick={() => setCurrent('Working')}>WORKING</button>
+                    <button className="tabs" id={current === 'Terrier'? 'active' : 'inactive'} onClick={() => setCurrent('Terrier')}>TERRIER</button>
+                    <button className="tabs" id={current === 'Toy'? 'active' : 'inactive'} onClick={() => setCurrent('Toy')}>TOY</button>
                 </div>
                 <div className='iconMargin'>
                     <div className='groupIcons'>

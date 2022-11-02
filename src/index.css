@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   /* margin-bottom: 20px; */
+  z-index: 2;
 }
  
 .btn {
@@ -28,8 +29,8 @@
 
 .homeCircle {
 
-    width: 80vh;
-    height: 80vh;
+    width: 80vw;
+    height: 80vw;
     background: #FDA65D;
     border-radius: 50%;
     display: flex;
@@ -136,11 +137,11 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin: -10% auto;
+  margin: -20%;
   overflow: hidden;
   position: relative;
   transform: translate(0, -120%);
-  z-index: 1;
+  z-index: ;
 }
 
 .categoryTitle {
@@ -152,7 +153,10 @@
   margin: 0;
   z-index: 2;
 }
-
+.searchSection {
+  z-index: 2;
+  display: flex;
+}
 .searchBar { 
   position: relative;
   background: none;
@@ -163,7 +167,14 @@
   padding: 5px 20px;
   opacity: 70%;
   margin: 25px 0;
+  transform: translate(0, -10%);
 
+}
+.search {
+  background: transparent;
+  color: gray;
+  border: none;
+  z-index: 2;
 }
 .categoryTabs {
   z-index: 2;
@@ -229,7 +240,61 @@
 
 /* Display Page Styling */
 .Display {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: hidden;
+}
+.displayTabs {
+  margin: 30px;
+  z-index: 2;
+}
+.displayBody {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: left;
+  margin-left: 1%;
+}
+.displayIcon {
+  width: 50vw;
+  height: 50vw;
+  color: #FAF2EB;
+  border-radius: 10%;
+  background-color: #FAF2EB;
+  display: flex; 
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  /* margin-left: 5%; */
+  margin-top: 3%;
+  z-index: 2;
+}
+.boxContent {
+  width: 40vw;
+  height: 40vw;
+  margin-left: 5%;
+  z-index: 2;
+}
+.dogTitle{
+  width: 40vw;
+  height: 40vw;
+  overflow-y: scroll;
+
+}
+.dogName {
+  
+  font-size: 4vw;
+
+  font-family: 'Oswald', sans-serif;
+  color: #FDA65D;
+  overflow-y: scroll;
+  margin-bottom: 0;
+
+
+}
+.historyInfo {
+  font-family: 'Oswald', sans-serif;
 }

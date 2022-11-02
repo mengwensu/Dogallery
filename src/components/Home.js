@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
-import Header from "./Header"
-
+import Header from "./Header";
+import {BsArrowRight} from "react-icons/fa";
 const Home = () => {
   return (
     <div className="Home">
@@ -9,9 +9,8 @@ const Home = () => {
             <div class="welcome">
                 <h1 class="title1">WELCOME TO</h1>
                 <h1 class="title2">DOGALLERY</h1>
-                <button className="exploreButton">Explore Dog Breeds  </button>
-                {/* <p style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, a id! Cum nostrum dolorem sit, atque minima exercitationem odit, vero fugiat sunt corrupti ea ut voluptates adipisci totam vitae nisi!</p>        
-                <button class="explore_button">Explore Dog Breeds    </button> */}
+                <p className="homeMessage">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, a id! Cum nostrum dolorem sit, atque minima exercitationem odit, vero fugiat sunt corrupti ea ut voluptates adipisci totam vitae nisi!</p>        
+                <button className="exploreButton">Explore Dog Breeds </button>
             </div>  
         </div>
     </div>

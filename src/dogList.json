@@ -109,12 +109,12 @@
     },
     {
         "name": "Pug",
-        "breed": "Toy"
+        "breed": "Toy",
         "url": "https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=2000"
     },
     {
         "name": "Chihuahua",
-        "breed": "Toy",
+        "breed": "Toy"
     },
     {
         "name": "Pomeranian",

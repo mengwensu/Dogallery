@@ -1,5 +1,4 @@
 import React, { Component, useState }  from 'react';
-import Header from "./Header"
 import dogList from "../dogList.json"
 import { useRef } from "react"
 import propTypes from 'prop-types'
@@ -16,8 +15,6 @@ const Categories = () => {
     return (
 
         <div>
-            <Header/>
-
             <div className='Categories'>
                 <h1 className="categoryTitle">CATEGORIES</h1>
                 <div className='searchSection'> 

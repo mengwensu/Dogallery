@@ -1,16 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
 /* Home Page Styling*/
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-bottom: 20px; */
   z-index: 2;
-}
+} */
  
-.btn {
+.nav {
+  background-color: #F8E2CF;
+  color: #636769;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 1.5rem;
+  z-index: 2;
+  font-family: 'Oswald', sans-serif;
+  /* margin: 10px; */
+
+
+}
+.siteTitle {
+  font-size: 1.5rem;
+  z-index: 2;
+  font-weight: bold;
+
+}
+.nav ul {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 2.5rem;
+
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+.nav li:hover {
+  /* background-color: rgba(255, 255, 255, 0.562); */
+  color: #FDA65D;
+}
+/* .btn {
   background: transparent;
   color: #636769;
   font-weight: 300;
@@ -25,7 +76,7 @@
   float: left;
   font-family: 'Oswald', sans-serif;
   z-index: 3;
-}
+} */
 
 .homeCircle {
 
@@ -40,6 +91,7 @@
     overflow: hidden;
     position: relative;
     transform: translate(-25%, -40%);
+    z-index: 1;
 }
 /* @media screen and (max-width: 1280px) { */
 

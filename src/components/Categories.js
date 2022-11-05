@@ -33,7 +33,9 @@ const Categories = () => {
                     <div className='groupIcons'>
                         {
                             dogList.filter(dog => dog.breed == current).map(filteredDog => (
-                                <DogIcon name={filteredDog.name} url={filteredDog.url}/>
+                                <a href='/display'><DogIcon name={filteredDog.name} url={filteredDog.url}/></a>
+                                // < className="exploreButton">Explore Dog Breeds <TfiArrowRight/></a>
+
                                 // console.log(filteredDog.breed)
                                 // <p>{filteredDog.name}</p>
                         ))}

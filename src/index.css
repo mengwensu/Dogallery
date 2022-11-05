@@ -289,7 +289,7 @@ body {
   /* opacity: 40%; */
   margin: 1vw;
   z-index: 2;
-  /* text-align: center; */
+  /* text-decoration-line: none; */
   bottom: 0;
   display: flex; 
   flex-direction: column; 
@@ -304,6 +304,9 @@ body {
 .icon img { 
   height: 65%;
 }
+/* .dogName {
+  text-decoration: none;
+} */
 
 /* Display Page Styling */
 .Display {

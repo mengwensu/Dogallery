@@ -9,117 +9,170 @@
         "video": ""
     },
     {
-        "name": "Boxer",
+        "name": "Siberian Husky",
         "breed": "Working",
-        "url": "https://cdn-fastly.petguide.com/media/2022/02/28/8263162/boxer.jpg?size=720x845&nocrop=1"
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Bulldog",
+        "name": "Bernese Mountain Dog",
         "breed": "Working", 
-        "url": "https://dogsbestlife.com/wp-content/uploads/2020/05/English-bulldog-scaled.jpeg"
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Inu",
-        "breed": "Working"
+        "name": "Alaskan Malamute",
+        "breed": "Working",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Labrador Retriever",
         "breed": "Sporting",
-        "url": "https://pngimg.com/uploads/labrador_retriever/labrador_retriever_PNG19.png"
+        "url": "https://pngimg.com/uploads/labrador_retriever/labrador_retriever_PNG19.png",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Spaniel",
-        "breed": "Sporting"
+        "name": "Cocker Spaniel",
+        "breed": "Sporting",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Setter",
-        "breed": "Sporting"
+        "name": "Brittany",
+        "breed": "Sporting",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Laika",
-        "breed": "Sporting"
+        "name": "Cocker Spaniel",
+        "breed": "Sporting",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Dalmatian",
-        "breed": "NonSporting"
-    },
-    {
-        "name": "Bichon",
-        "breed": "NonSporting"
-    },
-    {
-        "name": "Chow Chow",
         "breed": "NonSporting",
-        "url": "https://img.freepik.com/premium-photo/chow-chow-dog-white-background_65293-8590.jpg?w=2000"
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
+    },
+    {
+        "name": "Bulldog",
+        "breed": "NonSporting",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Poodle",
-        "breed": "NonSporting"
+        "breed": "NonSporting",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
+    },
+    {
+        "name": "Keeshond",
+        "breed": "NonSporting",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "German Shepard",
         "breed": "Herding"
     },
     {
-        "name": "Collie",
-        "breed": "Herding"
-    },
-    {
-        "name": "Sheepdog",
-        "breed": "Herding"
-    },
-    {
-        "name": "Corgi",
+        "name": "Pembroke Welsh Corgi",
         "breed": "Herding",
-        "url": "https://images.wagwalkingweb.com/media/breed/pembroke-welsh-corgi/appearance/pembroke-welsh-corgi.png"
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Corgi",
-        "breed": "Herding"
+        "name": "Border Collie",
+        "breed": "Herding",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Corgi",
-        "breed": "Herding"
-    },
-    
-    {
-        "name": "Corgi",
-        "breed": "Herding"
-    },
-    
-    {
-        "name": "Corgi",
-        "breed": "Herding"
-    },
-    
-    {
-        "name": "Corgi",
-        "breed": "Herding"
-    },
-    
-    {
-        "name": "Corgi",
-        "breed": "Herding"
-    },
-    
-
-    
+        "name": "Icelandic Sheepdog",
+        "breed": "Herding",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
+    },   
     {
         "name": "Bloodhound",
-        "breed": "Hound"
+        "breed": "Hound",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Dachshund",
         "breed": "Hound",
-        "url": "https://www.dogtime.com/assets/uploads/2011/01/file_23020_dachshund-dog-breed.jpg"
+        "url": "https://www.dogtime.com/assets/uploads/2011/01/file_23020_dachshund-dog-breed.jpg",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Basenji",
-        "breed": "Hound"
+        "name": "Greyhound",
+        "breed": "Hound",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Coonhound",
-        "breed": "Hound"
+        "name": "Beagle",
+        "breed": "Hound",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Scottish Terrier",

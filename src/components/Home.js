@@ -3,7 +3,7 @@ import {TfiArrowRight} from "react-icons/tfi";
 const Home = () => {
   return (
     <div className="Home">
-        
+      <img src="images/homeBackground.png" alt="homeBackground"></img>
         <div className="homeCircle">
             <div class="welcome">
                 <h1 class="title1">WELCOME TO</h1>

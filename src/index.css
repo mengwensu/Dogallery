@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 body {
+  background-image: image("images/homeBackground.png");
   margin: 0;
+  /* overflow: hidden; */
+
 }
 /* Home Page Styling*/
 /* .header {
@@ -13,6 +16,8 @@ body {
   align-items: center;
   z-index: 2;
 } */
+
+  
  
 .nav {
   background-color: #F8E2CF;
@@ -24,8 +29,16 @@ body {
   padding: 1rem 1.5rem;
   z-index: 2;
   font-family: 'Oswald', sans-serif;
-  /* margin: 10px; */
-
+  overflow: hidden;
+}
+.Home {
+    background-image: url(images/homeBackground.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 25%;
+    background-size: 60vw ;
+    
+    /* overflow: hidden; */
 
 }
 .siteTitle {
@@ -41,6 +54,7 @@ body {
   list-style-type: none;
   display: flex;
   gap: 2.5rem;
+  z-index: 2;
 
 }
 .nav a {
@@ -175,6 +189,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.exploreButton:hover {
+  background-color: #F8E2CF;
+  box-shadow: 5px 5px 10px rgb(154, 100, 1);  
+}
 /* Category Page Styling */
 .Categories {
   display: flex;

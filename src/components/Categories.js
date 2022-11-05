@@ -1,4 +1,5 @@
 import React, { Component, useState }  from 'react';
+import { Route, Routes } from 'react-router-dom';
 import dogList from "../dogList.json"
 import { useRef } from "react"
 import propTypes from 'prop-types'
@@ -7,10 +8,6 @@ import { GoSearch } from "react-icons/go";
 const Categories = () => {
 
     const [current, setCurrent] = useState('Herding');
-    // const onClick = (breed) => {
-    //     current =  breed;
-    //     console.log(current);
-    // }
    
     return (
 
@@ -42,6 +39,10 @@ const Categories = () => {
                         ))}
                     </div>
                 </div>
+                {/* <Routes>
+                    <Route path="/{}" element={<Home/>} />
+
+                </Routes> */}
                 <div className="categoryCircle"></div>
             </div>
         </div>

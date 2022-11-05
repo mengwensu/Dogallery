@@ -29,11 +29,11 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 .Home {
-    max-height: 1000px;
+    height: 100vh;
     background-image: url(images/homeBackground.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: 15%;
+    background-position-y: 80%;
     background-size: 60vw ;
 }
 .siteTitle {
@@ -408,8 +408,101 @@ body {
   width: 50vw;
   z-index: 2;
 }
-.Faq {
+/* .Faq {
   display: flex;
   flex-direction: column;
   align-items: center;
+} */
+.Faq {
+  height: 100vh;
+  background-image: url(images/faqBackground.png);
+  background-repeat: no-repeat;
+  /* background-position: left; */
+  background-position-y:bottom;
+  background-size: 60vw ;
+  background-position-x: -20%;
+  z-index: 3;
+}
+
+.faqCircle {
+  width: 50vw;
+  height: 50vw;
+  /* min-width: 1000px;
+  min-height: 1000px; */
+  background: #faf2eb96;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: -30%;
+  overflow: hidden;
+  position: relative;
+  transform: translate(50%, 70%);
+}
+
+.faqTitle {
+  position: relative;
+  text-align: center;
+  font-size: 4.5vw;
+  color: #FDA65D;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  z-index: 2;
+}
+.faqUnderline {
+  color: gray;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0;
+  z-index: 2;
+}
+
+.faqInfo {
+  width: 50vw;
+  z-index: 2;
+}
+
+/* Contact Page Styling */
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactCircle {
+width: 90vw;
+height: 90vw;
+/* min-width: 1000px;
+min-height: 1000px; */
+background: #faf2eb96;
+border-radius: 50%;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+margin: -30%;
+overflow: hidden;
+position: relative;
+transform: translate(0, -55%);
+z-index: 1;
+}
+
+.contactTitle {
+position: relative;
+text-align: center;
+font-size: 4.5vw;
+color: #FDA65D;
+font-family: 'Oswald', sans-serif;
+margin: 0;
+z-index: 2;
+}
+.contactUnderline {
+color: gray;
+font-weight: lighter;
+margin: 0;
+z-index: 2;
+}
+
+.contactInfo {
+width: 50vw;
+z-index: 2;
 }

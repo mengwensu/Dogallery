@@ -108,7 +108,7 @@ body {
     position: relative;
     text-align: left;
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 3vw;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -133,7 +133,7 @@ body {
     text-align: left;
     color: #F8E2CF;
     font-family: 'Oswald', sans-serif;
-    font-size: 8rem;
+    font-size: 6vw;
     font-weight: 800;
     margin: 0;
   }
@@ -214,7 +214,7 @@ body {
 .categoryTitle {
   position: relative;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4.5vw;
   color: #FDA65D;
   font-family: 'Oswald', sans-serif;
   margin: 0;

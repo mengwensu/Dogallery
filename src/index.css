@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: image("images/homeBackground.png");
   margin: 0;
-  /* overflow: hidden; */
 
 }
 /* Home Page Styling*/
@@ -29,17 +27,14 @@ body {
   padding: 1rem 1.5rem;
   z-index: 2;
   font-family: 'Oswald', sans-serif;
-  overflow: hidden;
 }
 .Home {
+    max-height: 1000px;
     background-image: url(images/homeBackground.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: 25%;
+    background-position-y: 15%;
     background-size: 60vw ;
-    
-    /* overflow: hidden; */
-
 }
 .siteTitle {
   font-size: 1.5rem;
@@ -113,7 +108,7 @@ body {
     position: relative;
     text-align: left;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -138,7 +133,7 @@ body {
     text-align: left;
     color: #F8E2CF;
     font-family: 'Oswald', sans-serif;
-    font-size: 80px;
+    font-size: 8rem;
     font-weight: 800;
     margin: 0;
   }
@@ -219,7 +214,7 @@ body {
 .categoryTitle {
   position: relative;
   text-align: center;
-  font-size: 50px;
+  font-size: 5rem;
   color: #FDA65D;
   font-family: 'Oswald', sans-serif;
   margin: 0;

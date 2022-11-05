@@ -1,9 +1,13 @@
 import React, { Component }  from 'react';
-import NavBar from './Navbar'
-
+import { LoremIpsum } from 'react-lorem-ipsum';
 const FAQ = () => {
   return ( 
-     <div>FAQ</div>
+     <div className='Faq'>
+       <div>
+        <img src="../images/homeBackground.png" alt="faqBackground"></img>
+       </div>
+       {/* <div></div> */}
+     </div>
 
   )
 }

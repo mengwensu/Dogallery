@@ -364,3 +364,52 @@ body {
 .historyInfo {
   font-family: 'Oswald', sans-serif;
 }
+/* About Page Styling */
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutCircle {
+  width: 90vw;
+  height: 90vw;
+  /* min-width: 1000px;
+  min-height: 1000px; */
+  background: #faf2eb96;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: -30%;
+  overflow: hidden;
+  position: relative;
+  transform: translate(0, -55%);
+  z-index: 1;
+}
+
+.aboutTitle {
+  position: relative;
+  text-align: center;
+  font-size: 4.5vw;
+  color: #FDA65D;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  z-index: 2;
+}
+.aboutUnderline {
+  color: gray;
+  font-weight: lighter;
+  margin: 0;
+  z-index: 2;
+}
+
+.aboutInfo {
+  width: 50vw;
+  z-index: 2;
+}
+.Faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

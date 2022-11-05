@@ -175,37 +175,75 @@
         "video": ""
     },
     {
+        "name": "Bull Terrier",
+        "breed": "Terrier",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
+    },
+    {
         "name": "Scottish Terrier",
         "breed": "Terrier",
-        "url": "https://breed-assets.wisdompanel.com/dog/scottish-terrier/Scottish_Terrier_Color.png"
+        "url": "https://breed-assets.wisdompanel.com/dog/scottish-terrier/Scottish_Terrier_Color.png",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Bull Terrier",
-        "breed": "Terrier"
+        "name": "Border Terrier",
+        "breed": "Terrier",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Norwich Terrier",
-        "breed": "Terrier"
-    },
-    {
-        "name": "Boston Terrier",
-        "breed": "Terrier"
+        "name": "Rat Terrier",
+        "breed": "Terrier",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Pug",
         "breed": "Toy",
-        "url": "https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=2000"
+        "url": "https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=2000",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Chihuahua",
-        "breed": "Toy"
+        "breed": "Toy",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Pomeranian",
-        "breed": "Toy"
+        "name": "Shih Tzu",
+        "breed": "Toy",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
-        "name": "Havanese",
-        "breed": "Toy"
+        "name": "Silky Terrier",
+        "breed": "Toy",
+        "url": "",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     }
 ]

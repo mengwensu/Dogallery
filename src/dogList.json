@@ -11,7 +11,7 @@
     {
         "name": "Siberian Husky",
         "breed": "Working",
-        "url": "",
+        "url": "https://www.hundeo.com/wp-content/uploads/2019/01/Siberian-Husky.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -20,7 +20,7 @@
     {
         "name": "Bernese Mountain Dog",
         "breed": "Working", 
-        "url": "",
+        "url": "https://www.akc.org/wp-content/uploads/2017/11/Bernese-Mountain-Dog-On-White-01.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -29,7 +29,7 @@
     {
         "name": "Alaskan Malamute",
         "breed": "Working",
-        "url": "",
+        "url": "https://t1.ea.ltmcdn.com/en/razas/9/3/3/alaskan-malamute_339_0_600.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -47,7 +47,7 @@
     {
         "name": "Cocker Spaniel",
         "breed": "Sporting",
-        "url": "",
+        "url": "https://www.purina-arabia.com/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0020_spaniel_cocker.jpg?itok=Y1VZwd8t",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -56,7 +56,16 @@
     {
         "name": "Brittany",
         "breed": "Sporting",
-        "url": "",
+        "url": "https://www.trainpetdog.com/wp-content/themes/mytheme/images/about-page-images/Brittany-Dog-origin.png",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
+    },
+        {
+        "name": "English Setter",
+        "breed": "Sporting",
+        "url": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/English-Setter.jpg?itok=zqxDNfRc",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -74,7 +83,7 @@
     {
         "name": "Dalmatian",
         "breed": "NonSporting",
-        "url": "",
+        "url": "https://www.akc.org/wp-content/uploads/2017/11/Dalmatian-On-White-01.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -109,12 +118,17 @@
     },
     {
         "name": "German Shepard",
-        "breed": "Herding"
+        "breed": "Herding",
+        "url": "https://www.akc.org/wp-content/uploads/2017/11/German-Shepherd-on-White-00.jpg",
+        "3dmodel": "",
+        "history": "",
+        "biological": "",
+        "video": ""
     },
     {
         "name": "Pembroke Welsh Corgi",
         "breed": "Herding",
-        "url": "",
+        "url": "https://res.cloudinary.com/embark/images/f_auto,q_auto/v1609947395/embarkvet.com/uploads/embark-Corgis_6_26447fee54/embark-Corgis_6_26447fee54.jpg?_i=AA",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -123,7 +137,7 @@
     {
         "name": "Border Collie",
         "breed": "Herding",
-        "url": "",
+        "url": "https://www.akc.org/wp-content/uploads/2017/11/Border-Collie-On-White-01.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -132,7 +146,7 @@
     {
         "name": "Icelandic Sheepdog",
         "breed": "Herding",
-        "url": "",
+        "url": "https://www.dogtime.com/assets/uploads/2011/01/file_23274_icelandic-sheepdog.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -213,7 +227,7 @@
     {
         "name": "Bloodhound",
         "breed": "Hound",
-        "url": "",
+        "url": "https://images.wagwalkingweb.com/media/breed/bloodhound/appearance/bloodhound.png?auto=compress&fit=max",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -231,7 +245,7 @@
     {
         "name": "Greyhound",
         "breed": "Hound",
-        "url": "",
+        "url": "https://www.hundeo.com/wp-content/uploads/2019/01/Greyhound-Hunderasse-Profil.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -240,7 +254,7 @@
     {
         "name": "Beagle",
         "breed": "Hound",
-        "url": "",
+        "url": "https://www.hundeo.com/wp-content/uploads/2019/01/beagle.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -249,7 +263,7 @@
     {
         "name": "Bull Terrier",
         "breed": "Terrier",
-        "url": "",
+        "url": "https://www.hundeo.com/wp-content/uploads/2019/02/Bullterrier-Profilbild.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -267,7 +281,7 @@
     {
         "name": "Border Terrier",
         "breed": "Terrier",
-        "url": "",
+        "url": "https://www.purina.co.nz/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0159_border_terrier.jpg?itok=ItjWVaLv",
         "3dmodel": "",
         "history": "",
         "biological": "",
@@ -276,7 +290,7 @@
     {
         "name": "Rat Terrier",
         "breed": "Terrier",
-        "url": "",
+        "url": "https://www.akc.org/wp-content/uploads/2017/11/Rat-Terrier-On-White-01.jpg",
         "3dmodel": "",
         "history": "",
         "biological": "",

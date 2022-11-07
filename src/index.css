@@ -27,14 +27,17 @@ body {
   padding: 1rem 1.5rem;
   z-index: 2;
   font-family: 'Oswald', sans-serif;
+  height: 10vh;
 }
 .Home {
-    height: 100vh;
+    height: 90vh;
+    width: 100vw;
     background-image: url(images/homeBackground.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 80%;
     background-size: 60vw ;
+    /* overflow: hidden */
 }
 .siteTitle {
   font-size: 1.5rem;

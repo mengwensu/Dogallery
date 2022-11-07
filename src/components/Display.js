@@ -1,12 +1,16 @@
 import React, { Component, useState }  from 'react';
 import {dogList} from '../dogList.json';
 import { LoremIpsum } from 'react-lorem-ipsum';
+import History from './History';
+import BiologicalInfo from './BiologicalInfo';
+import Video from './Video';
+import BreedEvol from './BreedEvol';
 
 const Display = () => {
     const [current, setCurrent] = useState('History');
 
     return (
-    <div>
+    // <div>
         <div className="Display">
             <div className="displayTabs">
 
@@ -18,7 +22,11 @@ const Display = () => {
             </div>
 
             <div className="displayBody">
-                <div className='displayIcon'></div>
+                {current === 'History'? <History/> : ''}
+                {current === 'Biological Information'? <BiologicalInfo/> : ''}
+                {current === 'Video'? <Video/> : ''}
+                {current === 'Breed Evolution'? <BreedEvol/> : ''}
+                {/* <div className='displayIcon'></div>
                     <div className='boxContent'>
                         <h2 className='dogName'>DOGNAME</h2> 
                         <div className='dogTitle'>
@@ -26,7 +34,7 @@ const Display = () => {
                         </div>
                         
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="categoryCircle"></div> */}
 
             </div>

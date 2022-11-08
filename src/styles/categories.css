@@ -1,0 +1,117 @@
+
+/* Category Page Styling */
+.Categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .categoryCircle {
+    width: 100vw;
+    height: 100vw;
+    /* min-width: 1000px;
+    min-height: 1000px; */
+    background: #FAF2EB;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: -30%;
+    overflow: hidden;
+    position: relative;
+    transform: translate(0, -120%);
+    z-index: 1;
+  }
+  
+  .categoryTitle {
+    position: relative;
+    text-align: center;
+    font-size: 4.5vw;
+    color: #FDA65D;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    z-index: 2;
+  }
+  .searchSection {
+    z-index: 2;
+    display: flex;
+  }
+  .searchBar { 
+    position: relative;
+    background: none;
+    z-index: 2;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 400px;
+    padding: 5px 20px;
+    opacity: 70%;
+    margin: 25px 0;
+    transform: translate(0, -10%);
+  
+  }
+  .search {
+    background: transparent;
+    color: gray;
+    border: none;
+    z-index: 2;
+  }
+  .categoryTabs {
+    z-index: 2;
+  }
+  
+  .tabs {
+    color: #636769;
+    margin : 0 50px 0 50px;
+    background: none;
+    border: none;
+    font-size: medium;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  #active {
+    color: #FDA65D;
+    text-decoration: underline;
+    
+  }
+  
+  .iconMargin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+  }
+  .groupIcons {
+    width: 90%;
+    color: #FAF2EB;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    z-index: 2;
+  }
+  
+  .icon {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    color: #636769;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* opacity: 40%; */
+    margin: 1vw;
+    z-index: 2;
+    /* text-decoration-line: none; */
+    bottom: 0;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-end;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    overflow: hidden;
+    cursor: pointer;
+  
+  }
+  .icon img { 
+    height: 65%;
+  }

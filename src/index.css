@@ -363,13 +363,12 @@ body {
   font-family: 'Oswald', sans-serif;
   color: #FDA65D;
   overflow-y: scroll;
-  margin-bottom: 0;
+  margin-bottom: 1px;
+  margin-top: 1px;
 
 
 }
-.historyInfo {
-  font-family: 'Oswald', sans-serif;
-}
+
 /* About Page Styling */
 
 .About {

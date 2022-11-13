@@ -1,5 +1,5 @@
 import React, { Component, useState }  from 'react';
-import dogArr from "../dogList.json"
+import dogList from "../dogList.json"
 import { LoremIpsum } from 'react-lorem-ipsum';
 import DogIcon from './DogIcon';
 import { useParams } from 'react-router-dom';
@@ -12,7 +12,7 @@ const BiologicalInfo = () => {
          <div className='boxContent'>
              <h2 className='dogName'>{dogname}</h2> 
              <div className='dogTitle'> {
-             dogArr.filter(dog => dog.name === dogname).map(filteredDog => (
+             dogList.filter(dog => dog.name === dogname).map(filteredDog => (
                 <div>
                     <div>
                         <h4 className='origin'>Origin</h4>

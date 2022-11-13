@@ -10,15 +10,13 @@ import Display from './Display';
 
 const Categories = () => {
 
-    const [current, setCurrent] = useState('Herding');
-    const [dogName, setName] = useState('default');
-    // const onClick = () => {
-    //     console.log(current);
+    const [current, setCurrent] = useState("Herding");
+    const [dogName, setName] = useState("");
+    const [searchKey, setSearchKey] = useState("")
+    // const handleClick = () => () => {
+    //     // setName(dogName);
+        // console.log(dogName);
     // }
-    const handleClick = () => () => {
-        // setName(dogName);
-        console.log(dogName);
-    }
 
     return (
 
@@ -26,11 +24,21 @@ const Categories = () => {
             <div className='Categories'>
                 <h1 className="categoryTitle">CATEGORIES</h1>
                 <div className='searchSection'> 
-                    <input className="searchBar" type="search" placeholder="Search"></input>
-                    <button className='search'><GoSearch/></button>
+                    <input className="searchBar" 
+                           type="search" 
+                           placeholder="Search" 
+                           onChange={(event) => {
+                               setSearchKey(event.target.value);
+                           }}>
+                    </input> 
+                    <Link to={`/search/${searchKey}`}>
+                        <div>
+                            <button className='search' onClick={(event) => setSearchKey(event.target.value)}><GoSearch/></button>
+
+                        </div>
+                    </Link>
                 </div>
                
-            
                 <div className="categoryTabs">
                     <button className="tabs" id={current === 'Herding'? 'active' : 'inactive'} onClick={() => setCurrent('Herding')}>HERDING</button>
                     <button className="tabs" id={current === 'Hound'? 'active' : 'inactive'} onClick={() => setCurrent('Hound')}>HOUND</button>
@@ -40,39 +48,27 @@ const Categories = () => {
                     <button className="tabs" id={current === 'Terrier'? 'active' : 'inactive'} onClick={() => setCurrent('Terrier')}>TERRIER</button>
                     <button className="tabs" id={current === 'Toy'? 'active' : 'inactive'} onClick={() => setCurrent('Toy')}>TOY</button>
                 </div>
+
                 <div className='iconMargin'>
-                    <div className='groupIcons'>
-                        {
-                            dogList.filter(dog => dog.breed == current).map(filteredDog => (
-                                
-                            <Link to={`/display/${filteredDog.name}`}>
-                                <div onClick={() => setName(filteredDog.name)}>
-                                    <DogIcon name={filteredDog.name} url={filteredDog.url}/>
-                                </div>
-                            </Link>
+                    <div className='groupIcons'> {
+                        dogList.filter(dog => dog.breed == current).map(filteredDog => (
+                            
+                        <Link to={`/display/${filteredDog.name}`}>
 
-                                // < className="exploreButton">Explore Dog Breeds <TfiArrowRight/></a>
+                            <div onClick={() => setName(filteredDog.name)}>
+                                <DogIcon name={filteredDog.name} url={filteredDog.url}/>
+                            </div>
 
-                                // console.log(filteredDog.breed)
-                                // <p>{filteredDog.name}</p>
-                        ))}
+                        </Link>
+
+                    ))}
                     </div>
                 </div>
-
-                {/* <Routes>
-                    <Route path="/{}" element={<Home/>} />
-
-                </Routes> */}
                 <div className="categoryCircle"></div>
             </div>
         </div>
-        
     )
 }
-// Categories.protoTypes = {
-//     onClick: propTypes.func,
-//     tab: propTypes.string,
-// }
 
 export default Categories
 

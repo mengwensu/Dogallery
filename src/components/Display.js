@@ -9,11 +9,9 @@ import { useParams } from 'react-router-dom';
 
 const Display = () => {
     const [current, setCurrent] = useState('History');
-    const { dogname } = useParams();
-    // console.log(params);
-    
+    const { dogname } = useParams();    
+
     return (
-    // <div>
         <div className="Display">
             <div className="displayTabs">
 
@@ -37,5 +35,4 @@ const Display = () => {
             </div>
   )
 }
-
 export default Display

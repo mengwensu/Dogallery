@@ -7,6 +7,7 @@ import Display from './components/Display';
 import Contact from './components/Contact';
 import About from './components/About';
 import FAQ from './components/FAQ';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/faq" element={<FAQ/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/search/:keyword" element={<Search/>} />
 
         </Routes>
 

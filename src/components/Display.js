@@ -15,7 +15,6 @@ const Display = () => {
     return (
     // <div>
         <div className="Display">
-            {/* {dogname} */}
             <div className="displayTabs">
 
                 <button className="tabs" id={current === 'History'? 'active' : 'inactive'} onClick={() => setCurrent('History')}>HISTORY</button>
@@ -26,24 +25,16 @@ const Display = () => {
             </div>
 
             <div className="displayBody">
+
                 {current === 'History'? <History/> : ''}
                 {current === 'Biological Information'? <BiologicalInfo/> : ''}
                 {current === 'Video'? <Video/> : ''}
                 {current === 'Breed Evolution'? <BreedEvol/> : ''} 
-                {/* <div className='displayIcon'></div>
-                    <div className='boxContent'>
-                        <h2 className='dogName'>{dogname}</h2> 
-                        <div className='dogTitle'>
-                            <LoremIpsum p={6} />
-                        </div>
-                        
-                    </div> */}
+        
                 </div>
                <div className="categoryCircle"></div>
 
             </div>
-    
-
   )
 }
 

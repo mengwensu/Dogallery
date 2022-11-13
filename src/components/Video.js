@@ -1,26 +1,24 @@
-
 import React, { Component, useState }  from 'react';
-import dogArr from '../dogList.json';
+import dogList from '../dogList.json';
 import { json, useParams } from 'react-router-dom';
 const Video = () => {
     const { dogname } = useParams();
     return (
-      dogArr.filter(dog => dog.name === dogname).map(filteredDog => (
-      <div>
-          <iframe className='video'
-            width="1000" 
-            height="500" 
-            src={filteredDog.video}
-            title="YouTube video player" 
-            frameborder="0" 
+      dogList.filter(dog => dog.name === dogname).map(filteredDog => (
+        <div className='Video'>
+          <div className='videoDisplay'>
+              <iframe width="100%"
+              height="100%"
+              src={`https://www.youtube.com/embed/${filteredDog.video}`}
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+              </iframe>
+          </div>
       </div>
       ))
-    
-
   )
 }
 

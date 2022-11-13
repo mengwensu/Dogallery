@@ -37,6 +37,7 @@ const Categories = () => {
 
                         </div>
                     </Link>
+                    
                 </div>
                
                 <div className="categoryTabs">

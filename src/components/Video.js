@@ -1,22 +1,24 @@
+
 import React, { Component, useState }  from 'react';
-import {dogList} from '../dogList.json';
-import { LoremIpsum } from 'react-lorem-ipsum';
-
+import dogArr from '../dogList.json';
+import { json, useParams } from 'react-router-dom';
 const Video = () => {
-
+    const { dogname } = useParams();
     return (
-    <div>
-        <iframe className='video'
-          width="1000" 
-          height="500" 
-          src="https://www.youtube.com/embed/Pr68R_M5FVk" 
-          title="YouTube video player" 
-          frameborder="0" 
+      dogArr.filter(dog => dog.name === dogname).map(filteredDog => (
+      <div>
+          <iframe className='video'
+            width="1000" 
+            height="500" 
+            src={filteredDog.video}
+            title="YouTube video player" 
+            frameborder="0" 
 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
-    </div>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+      </div>
+      ))
     
 
   )

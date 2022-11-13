@@ -1,8 +1,8 @@
 import React, { Component, useState }  from 'react';
-import {dogList} from '../dogList.json';
 import { LoremIpsum } from 'react-lorem-ipsum';
 import DogIcon from './DogIcon';
-import { useParams } from 'react-router-dom';
+import { json, useParams } from 'react-router-dom';
+import dogArr from "../dogList.json"
 
 const History = () => {
   const { dogname } = useParams();
@@ -12,7 +12,12 @@ const History = () => {
            <div className='boxContent'>
                <h2 className='dogName'>{dogname}</h2> 
                <div className='dogTitle'>
-                   <LoremIpsum p={6} />
+                  {
+                  dogArr.filter(dog => dog.name === dogname).map(filteredDog => (
+                    <div>
+                      <p>{filteredDog.history}</p>
+                    </div>
+                  ))}
                </div>
               
            </div>

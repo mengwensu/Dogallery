@@ -45,7 +45,11 @@ const Categories = () => {
                         {
                             dogList.filter(dog => dog.breed == current).map(filteredDog => (
                                 
-                <Link to={`/display/${filteredDog.name}`}><div onClick={() => setName(filteredDog.name)}><DogIcon name={filteredDog.name} url={filteredDog.url}/></div></Link>
+                            <Link to={`/display/${filteredDog.name}`}>
+                                <div onClick={() => setName(filteredDog.name)}>
+                                    <DogIcon name={filteredDog.name} url={filteredDog.url}/>
+                                </div>
+                            </Link>
 
                                 // < className="exploreButton">Explore Dog Breeds <TfiArrowRight/></a>
 

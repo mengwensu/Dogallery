@@ -9,7 +9,7 @@
         "weight": "110-180 pounds/50-82 kilograms",
         "lifespan": "8-10 years",
         "healthissues": "Bloat, hip issues, heart issues, wobbler disease, merle gene issues",
-        "Blurb": "Contrary to its name, the Great Dane does not actually originate from Denmark, rather, they actually originated in Germany. Great Danes are a very large breed of dog, there are very few larger than them so keep that in mind before deciding to get one. Due to their size it’s not uncommon for them to be chosen as guard dogs. However, this does not mean they have a bad temper, unlike certain other dog breeds.",
+        "history": "Contrary to its name, the Great Dane does not actually originate from Denmark, rather, they actually originated in Germany. Great Danes are a very large breed of dog, there are very few larger than them so keep that in mind before deciding to get one. Due to their size it’s not uncommon for them to be chosen as guard dogs. However, this does not mean they have a bad temper, unlike certain other dog breeds.",
         "video": "https://www.youtube.com/watch?v=w-tc6fFBAYg"
     },
     {
@@ -22,7 +22,7 @@
         "weight": "35-60 pounds/16-27 kilograms",
         "lifespan": "12-14 years",
         "healthissues": "Eye and hip issues",
-        "blurb": "Siberian Huskies are generally very sociable, friendly, and energetic dogs, they certainly needed to be for their role of sled dogs used in big teams in Siberia. Siberian Huskies popularity truly took off all the way back in 1925 where one man and a group of dogs made a 658 mile journey in a mere five and a half days to deliver medicine. This was such a big deal that the lead dog maintains a statue in Central Park in New York City to this day.",
+        "history": "Siberian Huskies are generally very sociable, friendly, and energetic dogs, they certainly needed to be for their role of sled dogs used in big teams in Siberia. Siberian Huskies popularity truly took off all the way back in 1925 where one man and a group of dogs made a 658 mile journey in a mere five and a half days to deliver medicine. This was such a big deal that the lead dog maintains a statue in Central Park in New York City to this day.",
         "video": "https://www.youtube.com/watch?v=G7_xlYavkrM"
     },
     {
@@ -35,7 +35,7 @@
         "weight": "70-115 pounds/32-52 kilograms",
         "lifespan": "7-10 years",
         "healthissues": "Elbow, eye, hip, and heart issues",
-        "blurb": "This breed is the definition of a gentle giant. Their job in their home of Switzerland was one that should be unsurprising given their size, guarding farms and helping move heavy loads, and they certainly succeeded in that job both there and when they were imported into the US in the early 1900’s. ",
+        "history": "This breed is the definition of a gentle giant. Their job in their home of Switzerland was one that should be unsurprising given their size, guarding farms and helping move heavy loads, and they certainly succeeded in that job both there and when they were imported into the US in the early 1900’s. ",
         "video": "https://www.youtube.com/watch?v=1qQ5Cfy7lbk"
     },
     {
@@ -48,7 +48,7 @@
         "weight": "75-85 pounds/34-38.5 kilograms",
         "lifespan": "10-14 years",
         "healthissues": "Eye, hip, and polyneuropathy issues",
-        "blurb": "The Alaskan Malamute is to the Siberian Husky as a pickup truck is to a sports car. The Malamute is named after an Inuit tribe of similar name and was bred to help move significantly larger loads. Since World War Two this breed of dog has seen a rather heavy drop in population.",
+        "history": "The Alaskan Malamute is to the Siberian Husky as a pickup truck is to a sports car. The Malamute is named after an Inuit tribe of similar name and was bred to help move significantly larger loads. Since World War Two this breed of dog has seen a rather heavy drop in population.",
         "video": "https://www.youtube.com/watch?v=h99LhSatpPg"
     },
     {
@@ -61,7 +61,7 @@
         "weight": "55-80 pounds/25-36 kilograms",
         "lifespan": "10-12 years",
         "healthissues": "Obesity",
-        "blurb": "Labradors are one of the staple pictures of a friendly, high-energy family dog. You will be hard pressed to find a more friendly breed of dog than this. Of course this also means that you should be ready to be able to deal with all of that energy lest they start to spend that energy on things such as your furniture.",
+        "history": "Labradors are one of the staple pictures of a friendly, high-energy family dog. You will be hard pressed to find a more friendly breed of dog than this. Of course this also means that you should be ready to be able to deal with all of that energy lest they start to spend that energy on things such as your furniture.",
         "video": "https://www.youtube.com/watch?v=0G1PHynnN7Y"
     },
     {
@@ -74,7 +74,7 @@
         "weight": "20-30 pounds/9-13.5 kilograms",
         "lifespan": "10-14 years",
         "healthissues": "Eye and hip issues",
-        "blurb": "If you see a short dog with an especially long and fancy coat then odds are you’re looking at a Cocker Spaniel. This breed took off in popularity in the US back in the 40’s and 50’s for both a combination of their unique coat and great attitudes.",
+        "history": "If you see a short dog with an especially long and fancy coat then odds are you’re looking at a Cocker Spaniel. This breed took off in popularity in the US back in the 40’s and 50’s for both a combination of their unique coat and great attitudes.",
         "video": "https://www.youtube.com/watch?v=w9m1epXLvW4"
     },
     {
@@ -87,7 +87,7 @@
         "weight": "30-40 pounds/13.5-18 kilograms",
         "lifespan": "12-14 years",
         "healthissues": "Eye and hip issues",
-        "blurb": "Just by looking at a Brittany you can tell that it was developed first and foremost as a hunting dog. This was developed by those who lived out in the countryside in France and needed a solid and reliable hunting dog and they maintain this status and success today as well. As such it’s important to remember that the Brittany is not an indoor dog and should be taken outside for exercise regularly.",
+        "history": "Just by looking at a Brittany you can tell that it was developed first and foremost as a hunting dog. This was developed by those who lived out in the countryside in France and needed a solid and reliable hunting dog and they maintain this status and success today as well. As such it’s important to remember that the Brittany is not an indoor dog and should be taken outside for exercise regularly.",
         "video": "https://www.youtube.com/watch?v=8KvjusgcrXI"
     },
         {
@@ -100,7 +100,7 @@
         "weight": "45-80 pounds/20.5-36 kilograms",
         "lifespan": "12 years",
         "healthissues": "Ear, hip, and thyroid issues",
-        "blurb": "Like the other sporting dogs, the Englisher Setter was developed as a hunter’s assistant. The Setter name comes from what they were designated to do, that is to set. Specifically, they would be taken out to find game birds and would lie down when they had found some.",
+        "history": "Like the other sporting dogs, the Englisher Setter was developed as a hunter’s assistant. The Setter name comes from what they were designated to do, that is to set. Specifically, they would be taken out to find game birds and would lie down when they had found some.",
         "video": "https://www.youtube.com/watch?v=UuukKjSrIXE"
     },
     {
@@ -112,7 +112,7 @@
         "weight": "",
         "lifespan": "",
         "healthissues": "",
-        "blurb": "",
+        "history": "",
         "video": ""
     },
     {
@@ -125,7 +125,7 @@
         "weight": "45-70 pounds/20-32 kilograms",
         "lifespan": "11-13 years",
         "healthissues": "Deafness, allergies, urinary stones",
-        "blurb": "Dalmatians are one of those easily recognizable breeds by their famous black and white spotted coat. Dalmatians origin is unknown, this is largely as a result of being very commonly used as coach dogs, not as in coaching or teaching something, but as in guarding coaches/caravans back in the day. Due to this they spread across Europe and earned a variety of different names. Ultimately though the name we most widely use today for Dalmatians is a reference to the region in Europe they were most closely associated with.",
+        "history": "Dalmatians are one of those easily recognizable breeds by their famous black and white spotted coat. Dalmatians origin is unknown, this is largely as a result of being very commonly used as coach dogs, not as in coaching or teaching something, but as in guarding coaches/caravans back in the day. Due to this they spread across Europe and earned a variety of different names. Ultimately though the name we most widely use today for Dalmatians is a reference to the region in Europe they were most closely associated with.",
         "video": "https://www.youtube.com/watch?v=wqmI45JIjIg"
     },
     {
@@ -138,7 +138,7 @@
         "weight": "40-50 pounds/18-22.5 kilograms",
         "lifespan": "8-10 years",
         "healthissues": "Possible overheating, may see tongue stick out too far with a bluish cast.",
-        "blurb": "Bulldogs are an unmistakable breed of dog with a face that shows courage and determination. This stems from the 13th century in England when the ancestors of bulldogs fought a bull in the sport of “bullbaiting”. Bulldogs are also very docile, but it is advised to have bulldogs spend more time in an air-conditioned room during the Summer since their short snouts may force them to breathe more when the weather gets hot and humid.",
+        "history": "Bulldogs are an unmistakable breed of dog with a face that shows courage and determination. This stems from the 13th century in England when the ancestors of bulldogs fought a bull in the sport of “bullbaiting”. Bulldogs are also very docile, but it is advised to have bulldogs spend more time in an air-conditioned room during the Summer since their short snouts may force them to breathe more when the weather gets hot and humid.",
         "video": "https://www.youtube.com/watch?v=pvc6EV6t9uk"
     },
     {
@@ -151,7 +151,7 @@
         "weight": "40-70 pounds/18-32 kilograms",
         "lifespan": "10-18 years",
         "healthissues": "Hip dysplasia, eye disorders, idiopathic epilepsy, sebaceous adenitis, von Willebrand’s disease, immune-mediated disorders",
-        "blurb": "Despite the fact that the poodle is the national dog of France, they actually originated in Germany as duck hunters. Poodles are incredibly smart and their coat allows them to swim very well in the water as well as protecting them from certain things like the cold. Poodles also come in three different size varieties known as Standard, Miniature, and Toy. In France, poodles were known for being excellent entertainers.",
+        "history": "Despite the fact that the poodle is the national dog of France, they actually originated in Germany as duck hunters. Poodles are incredibly smart and their coat allows them to swim very well in the water as well as protecting them from certain things like the cold. Poodles also come in three different size varieties known as Standard, Miniature, and Toy. In France, poodles were known for being excellent entertainers.",
         "video": "https://www.youtube.com/watch?v=DA_XWswS18A"
     },
     {
@@ -164,7 +164,7 @@
         "weight": "35-45 pounds/16-20.5 kilograms",
         "lifespan": "12-15 years",
         "healthissues": "Hip and elbow dysplasia, patellar luxation, hyperparathyroidism",
-        "blurb": "The Keeshond breed seems to have some mystery behind it since the exact origin is unclear, although they did serve as guard dogs on Dutch ships, and that there is no clear reason why the breed was named “Keeshond”. These dogs have special markings around their face that make it look like it’s wearing spectacles, this shows that the Keeshond is intelligent to go with his amiable personality.",
+        "history": "The Keeshond breed seems to have some mystery behind it since the exact origin is unclear, although they did serve as guard dogs on Dutch ships, and that there is no clear reason why the breed was named “Keeshond”. These dogs have special markings around their face that make it look like it’s wearing spectacles, this shows that the Keeshond is intelligent to go with his amiable personality.",
         "video": "https://www.youtube.com/watch?v=y_V0IOtCjEo"
     },
     {
@@ -177,7 +177,7 @@
         "weight": "49-88 pounds/22-40 kilograms",
         "lifespan": "9-13 years",
         "healthissues": "Hip and spine issues as well as arthritis",
-        "blurb": "Contrary to what they are primarily used for nowadays (police dogs, guard dogs, etc.), they actually originated as a shepherding dog. Since the breed is so recent as well, we even know the specific person who set about creating this breed, one Max von Stephanitz, a German cavalry officer in the 1800’s.",
+        "history": "Contrary to what they are primarily used for nowadays (police dogs, guard dogs, etc.), they actually originated as a shepherding dog. Since the breed is so recent as well, we even know the specific person who set about creating this breed, one Max von Stephanitz, a German cavalry officer in the 1800’s.",
         "video": "https://www.youtube.com/watch?v=LKdjssotyEk"
     },
     {
@@ -190,7 +190,7 @@
         "weight": "Generally less than 28-30 pounds/12.5-13.5 kilograms",
         "lifespan": "12-13 years",
         "healthissues": "Hip and elbow dysplasia, eye disorders, cardiac issues, degenerative myelopathy, von Willebrand’s disease",
-        "blurb": "In the past, King Henry I of Britain invited some of the best weavers from Flanders (now Northern Belgium) to come to southwestern Wales. The weavers brought their dogs with them too and eventually, the dogs were named after the place where they worked, Pembrokeshire. Being cattle herding dogs in the past made corgis very athletic, alert, and fearless, and they enjoy being active with their families.",
+        "history": "In the past, King Henry I of Britain invited some of the best weavers from Flanders (now Northern Belgium) to come to southwestern Wales. The weavers brought their dogs with them too and eventually, the dogs were named after the place where they worked, Pembrokeshire. Being cattle herding dogs in the past made corgis very athletic, alert, and fearless, and they enjoy being active with their families.",
         "video": "https://www.youtube.com/watch?v=sjydlB7bFQE"
     },
     {
@@ -203,7 +203,7 @@
         "weight": "30-45 pounds/13.5-20.5 kilograms",
         "lifespan": "12-15 years",
         "healthissues": "Hip dysplasia, progressive renal atrophy, deafness, epilepsy, collie eye anomaly, neuronal ceroid lipofuscinosis, trapped neutrophil syndrome",
-        "blurb": "During the times of the Roman Empire, the Border Collies emerged when Roman dogs were crossed with dogs that Viking raiders brought with them during Britain’s invasion. Border Collies are considered the greatest herders in the world with their athleticism, energy, and intelligence. Border Collies show their friendly nature around their friends but are rather quiet around strangers.",
+        "history": "During the times of the Roman Empire, the Border Collies emerged when Roman dogs were crossed with dogs that Viking raiders brought with them during Britain’s invasion. Border Collies are considered the greatest herders in the world with their athleticism, energy, and intelligence. Border Collies show their friendly nature around their friends but are rather quiet around strangers.",
         "video": "https://www.youtube.com/watch?v=qFl3S-TjF1o"
     },
     {
@@ -216,7 +216,7 @@
         "weight": "25-30 pounds/11.5-13.5 kilograms",
         "lifespan": "12-14 years",
         "healthissues": "Hip and elbow dysplasia, patellar luxation",
-        "blurb": "Icelandic Sheepdogs were brought from Norway to Iceland by Norse settlers a long time ago. Icelandic Sheepdogs are a national symbol to Iceland and are also classified as spitzes, they can also come in different colors with white markings and a very friendly face.",
+        "history": "Icelandic Sheepdogs were brought from Norway to Iceland by Norse settlers a long time ago. Icelandic Sheepdogs are a national symbol to Iceland and are also classified as spitzes, they can also come in different colors with white markings and a very friendly face.",
         "video": "https://www.youtube.com/watch?v=6wL8Mq8qJZk"
     },   
     {
@@ -301,7 +301,7 @@
         "weight": "88-119 pounds/40-54 kilograms",
         "lifespan": "7-12 years",
         "healthissues": "Gastrointestinal (Hereafter referred to as bloat), eye, skin, and ear issues. Beware of overheating due to the thick coat.",
-        "blurb": "Bloodhounds are one of those instantly recognizable breeds with their unmistakable face. They are commonly seen in police departments and the like for their world renowned nose, being able to follow almost any trail and for extended periods of time. They tend towards being much more laid-back and independent than other dogs, certainly nowhere near as energetic as breeds such as the Labrador Retriever. *While the modern Bloodhound can be generally said to have originated out of Western Europe the origin of the breed as a whole is unknown, though it is possible it could have existed as far back as the 3rd century in the Roman Empire.",
+        "history": "Bloodhounds are one of those instantly recognizable breeds with their unmistakable face. They are commonly seen in police departments and the like for their world renowned nose, being able to follow almost any trail and for extended periods of time. They tend towards being much more laid-back and independent than other dogs, certainly nowhere near as energetic as breeds such as the Labrador Retriever. *While the modern Bloodhound can be generally said to have originated out of Western Europe the origin of the breed as a whole is unknown, though it is possible it could have existed as far back as the 3rd century in the Roman Empire.",
         "video": "https://www.youtube.com/watch?v=blIaGmKXIz8"
     },
     {
@@ -314,7 +314,7 @@
         "weight": "16-32 pounds/7-14.5 kilograms",
         "lifespan": "12-16 years",
         "healthissues": "Knee and heart issues",
-        "blurb": "The stereotype of small dogs being crazy energetic may be untrue with some dog breeds but the Dachsund is not one of them. These very short and very long dogs have an absolutely unmistakable appearance but it is for good reason. They were developed for the exact reason their name suggests as translated from the German it is in, it means Badger Dog and with that context their shape, and aggressiveness, makes a lot more sense.",
+        "history": "The stereotype of small dogs being crazy energetic may be untrue with some dog breeds but the Dachsund is not one of them. These very short and very long dogs have an absolutely unmistakable appearance but it is for good reason. They were developed for the exact reason their name suggests as translated from the German it is in, it means Badger Dog and with that context their shape, and aggressiveness, makes a lot more sense.",
         "video": "https://www.youtube.com/watch?v=6G24ZyGRUvc"
     },
     {
@@ -327,7 +327,7 @@
         "weight": "60-70 pounds/27-32 kilograms",
         "lifespan": "10-13 years",
         "healthissues": "Eye, heart, and NDRG1 polyneuropathy disease",
-        "blurb": "Don’t be alarmed if the Greyhound looks familiar as if you’ve ever been in a history class that has gone over Egyptian hieroglyphs or watched a history documentary on them you may very well have seen ancient pictures of this dog. As their form may suggest they are fantastic sprinters and were used for catching fast animals.",
+        "history": "Don’t be alarmed if the Greyhound looks familiar as if you’ve ever been in a history class that has gone over Egyptian hieroglyphs or watched a history documentary on them you may very well have seen ancient pictures of this dog. As their form may suggest they are fantastic sprinters and were used for catching fast animals.",
         "video": "https://www.youtube.com/watch?v=KmHAHP6IZA8"
     },
     {
@@ -340,7 +340,7 @@
         "weight": "20-30 pounds/9-13.5 kilograms",
         "lifespan": "10-15 years",
         "healthissues": "Eye, hip, heart, and thyroid issues",
-        "blurb": "Beagles made their name as general purpose small animal hunters. In this role they received the nickname of foot hound in reference to being able to walk and keep up with them on foot rather than requiring horseback to keep up with as in the case of some larger and faster dogs.",
+        "history": "Beagles made their name as general purpose small animal hunters. In this role they received the nickname of foot hound in reference to being able to walk and keep up with them on foot rather than requiring horseback to keep up with as in the case of some larger and faster dogs.",
         "video": "https://www.youtube.com/watch?v=xMO3HEOOFSc"
     },
     {
@@ -353,7 +353,7 @@
         "weight": "50-70 pounds/23-32 kilograms",
         "lifespan": "12-13 years",
         "healthissues": "Kidney and heart issues",
-        "blurb": "Bull Terriers have an unfortunate history of being born out of dogfighting rings in England. As a result, while not being particularly large they do tend to be fairly strong for their size. Also, while breeders have largely mellowed out their temper since their creation in the 1800’s it is still not recommended to have them around other dogs. As with everything this is not an absolute, each dog is different after all, but do keep this in mind.",
+        "history": "Bull Terriers have an unfortunate history of being born out of dogfighting rings in England. As a result, while not being particularly large they do tend to be fairly strong for their size. Also, while breeders have largely mellowed out their temper since their creation in the 1800’s it is still not recommended to have them around other dogs. As with everything this is not an absolute, each dog is different after all, but do keep this in mind.",
         "video": "https://www.youtube.com/watch?v=A77BERDkE4M"
     },
     {
@@ -366,7 +366,7 @@
         "weight": "18-20 pounds/8-9 kilograms",
         "lifespan": "10-12 years",
         "healthissues": "Knee issues and Von Willebrand’s disease (blood not clotting)",
-        "blurb": "The Scottish Terrier is a small but rugged dog that had its origins on the farm hunting small animals. While they can still make great companions just know that they can be more of an issue with other small pets.",
+        "history": "The Scottish Terrier is a small but rugged dog that had its origins on the farm hunting small animals. While they can still make great companions just know that they can be more of an issue with other small pets.",
         "video": "https://www.youtube.com/watch?v=FjhXoRY_50I"
     },
     {
@@ -379,7 +379,7 @@
         "weight": "11.5-15.5 pounds/5-7 kilograms",
         "lifespan": "12-15 years",
         "healthissues": "Eye, heart, hip, and knee issues",
-        "blurb": "Border Terriers are close relatives to the Scottish Terrier in most regards, origin, demeanor, and purpose. Where the Border Terrier differentiates itself, besides the obvious difference in appearance, is its popularity back in the 1800’s for use in foxhunting in Britain.",
+        "history": "Border Terriers are close relatives to the Scottish Terrier in most regards, origin, demeanor, and purpose. Where the Border Terrier differentiates itself, besides the obvious difference in appearance, is its popularity back in the 1800’s for use in foxhunting in Britain.",
         "video": "https://www.youtube.com/watch?v=tTztvVOgj8Y"
     },
     {
@@ -392,7 +392,7 @@
         "weight": "10-25 pounds/4.5-11.5 kilograms",
         "lifespan": "12-18 years",
         "healthissues": "Eye, heart, hip, and knee issues",
-        "blurb": "There are actually two distinct types of Rat Terrier, minis and standards, with minis being under 13 inches in height and standards being at or above 13 inches in height. They also were actually created in the USA as farm dogs whose primary, although not only, job was to hunt rats. In addition to this, for a terrier breed they can be relatively friendly to other small animals as well. Of course any dog of any breed can behave well or poorly with other animals but the Rat Terrier does generally have a better disposition than most other terrier breeds.",
+        "history": "There are actually two distinct types of Rat Terrier, minis and standards, with minis being under 13 inches in height and standards being at or above 13 inches in height. They also were actually created in the USA as farm dogs whose primary, although not only, job was to hunt rats. In addition to this, for a terrier breed they can be relatively friendly to other small animals as well. Of course any dog of any breed can behave well or poorly with other animals but the Rat Terrier does generally have a better disposition than most other terrier breeds.",
         "video": "https://www.youtube.com/watch?v=aYvdzh8Jnwg"
     },
     {
@@ -405,7 +405,7 @@
         "weight": "14-18 pounds/6.5-8 kilograms",
         "lifespan": "10-12 years",
         "healthissues": "Breathing and overheating issues",
-        "blurb": "Pugs are a lot of love in a small bundle, something you can thank ancient Chinese emperors for cultivating. Similarly to Labradors, Pugs are a great dog for the family but in a much smaller and more easily handled size.",
+        "history": "Pugs are a lot of love in a small bundle, something you can thank ancient Chinese emperors for cultivating. Similarly to Labradors, Pugs are a great dog for the family but in a much smaller and more easily handled size.",
         "video": "https://www.youtube.com/watch?v=3xC4miH_rXo"
     },
     {
@@ -418,7 +418,7 @@
         "weight": "Not exceeding 6 pounds/2.75 kilograms",
         "lifespan": "14-16 years",
         "healthissues": "Potential heart problems, eye disease, patellar luxation(loose kneecaps), idiopathic epilepsy",
-        "blurb": "The chihuahua is known as one of the oldest dog breeds in America. A pre-Columbian culture known as the Toltecs had a larger, heavier ancestor of the chihuahua known as a Techichi, but these dogs were refined to be smaller and lighter after the Aztecs took over the Toltecs in the 12th century. Chihuahuas are perfect city pets due to their small size, and they are quite confident, clever, loyal, and charming despite their size.",
+        "history": "The chihuahua is known as one of the oldest dog breeds in America. A pre-Columbian culture known as the Toltecs had a larger, heavier ancestor of the chihuahua known as a Techichi, but these dogs were refined to be smaller and lighter after the Aztecs took over the Toltecs in the 12th century. Chihuahuas are perfect city pets due to their small size, and they are quite confident, clever, loyal, and charming despite their size.",
         "video": "https://www.youtube.com/watch?v=X4TVV5_cLGo "
     },
     {
@@ -431,7 +431,7 @@
         "weight": "9-16 pounds/4-7.5 kilograms",
         "lifespan": "10-18 years",
         "healthissues": "Hip dysplasia, patellar luxation, inflammation from too much exposure to air due when eyelids don’t close correctly.",
-        "blurb": "Shih Tzus are some of the most refined, affectionate, and well-groomed breed of dogs known. This stems from Chinese history when Shih Tzu lived in palaces with the emperors, being pampered and sitting in their owner’s lap. The Shih Tzu breed is very affectionate, especially with children, and they prefer to be inside rather than play outside.",
+        "history": "Shih Tzus are some of the most refined, affectionate, and well-groomed breed of dogs known. This stems from Chinese history when Shih Tzu lived in palaces with the emperors, being pampered and sitting in their owner’s lap. The Shih Tzu breed is very affectionate, especially with children, and they prefer to be inside rather than play outside.",
         "video": "https://www.youtube.com/watch?v=abOpCtQBsUA"
     },
     {
@@ -444,7 +444,7 @@
         "weight": "10 pounds/4.5 kilograms",
         "lifespan": "13-15 years",
         "healthissues": "Patellar luxation, eye disease",
-        "blurb": "The Silky Terrier is often mistaken for an Australian or Yorkshire terrier since the Silky Terriers first emerged when those two breeds (along with other possible terriers brought to Australia) were crossed. The Silky Terrier has a special blue-and-tan glossy coat and is considered very energetic, though a bit more refined than most terriers, but despite that it has “Terrier” in its name it’s actually in the “Toy” group due to its small size.",
+        "history": "The Silky Terrier is often mistaken for an Australian or Yorkshire terrier since the Silky Terriers first emerged when those two breeds (along with other possible terriers brought to Australia) were crossed. The Silky Terrier has a special blue-and-tan glossy coat and is considered very energetic, though a bit more refined than most terriers, but despite that it has “Terrier” in its name it’s actually in the “Toy” group due to its small size.",
         "video": "https://www.youtube.com/watch?v=txCY8vPzcDo"
     }, 
     {

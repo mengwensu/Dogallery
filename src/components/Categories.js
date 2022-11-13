@@ -13,10 +13,6 @@ const Categories = () => {
     const [current, setCurrent] = useState("Herding");
     const [dogName, setName] = useState("");
     const [searchKey, setSearchKey] = useState("")
-    // const handleClick = () => () => {
-    //     // setName(dogName);
-        // console.log(dogName);
-    // }
 
     return (
 
@@ -24,6 +20,7 @@ const Categories = () => {
             <div className='Categories'>
                 <h1 className="categoryTitle">CATEGORIES</h1>
                 <div className='searchSection'> 
+
                     <input className="searchBar" 
                            type="search" 
                            placeholder="Search" 
@@ -31,12 +28,20 @@ const Categories = () => {
                                setSearchKey(event.target.value);
                            }}>
                     </input> 
-                    <Link to={`/search/${searchKey}`}>
-                        <div>
-                            <button className='search' onClick={(event) => setSearchKey(event.target.value)}><GoSearch/></button>
+                    {searchKey === ""? (
+                        // <Link to="/categories">
+                            <div>
+                                <button className='search'><GoSearch/></button>
+                            </div>
+                        // </Link>
+                    ):(
+                        <Link to={`/search/${searchKey}`}>
+                            <div>
+                                <button className='search' onClick={(event) => setSearchKey(event.target.value)}><GoSearch/></button>
 
-                        </div>
-                    </Link>
+                            </div>
+                        </Link>
+                    )}
                     
                 </div>
                

@@ -248,6 +248,10 @@ body {
   z-index: 2;
   cursor: pointer;
 }
+
+.search:hover {
+  color: black;
+}
 .categoryTabs {
   z-index: 2;
 }

@@ -15,6 +15,7 @@ function App() {
       <NavBar />
       <div className="App">
         <Routes>
+          
           <Route path="/" element={<Home/>} />
           <Route path="/categories" element={<Categories/>} />
           <Route path="/display/:dogname" element={<Display/>} />

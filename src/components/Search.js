@@ -20,28 +20,49 @@ const Search = () => {
                         setSearchKey(event.target.value);
                     }}>
             </input> 
-            <Link to={`/search/${searchKey}`}>
-                <button className='search' onClick={(event) => setSearchKey(event.target.value)}><GoSearch/></button>
-            </Link>
+            {(searchKey === "" || searchKey === undefined)? (
+                        // <Link to={`/search/${searchKey}`}>
+                            <div>
+                                <button className='search'><GoSearch/></button>
+                            </div>
+                        // </Link>
+                    ):(
+                        <Link to={`/search/${searchKey}`}>
+                            <div>
+                                <button className='search' onClick={(event) => setSearchKey(event.target.value)}><GoSearch/></button>
+
+                            </div>
+                        </Link>
+                    )}
         </div>
         <div className='searchDisplay'>
             <div className='iconMargin'>
                 <div className='groupIcons'> {
-                    dogList.filter(dog => dog.name.toLowerCase().includes(keyword.toLowerCase())).map(filteredDog => (
-                        <Link to={`/display/${filteredDog.name}`}>
+                        dogList.filter(dog => {
+                                if (keyword !== undefined && dog.name.toLowerCase().includes(keyword.toLowerCase())) {
+                                    return true
+                                } else {
+                                    return false
+                                }
+                        }).map(filteredDog => (
+                        
+                            <Link to={`/display/${filteredDog.name}`}>
+    
+                                <div onClick={() => setName(filteredDog.name)}>
+                                    <DogIcon name={filteredDog.name} url={filteredDog.url}/>
+                                </div>
+    
+                            </Link>
 
-                            <div onClick={() => setName(filteredDog.name)}>
-                                <DogIcon name={filteredDog.name} url={filteredDog.url}/>
-                            </div>
-
-                        </Link>
-                    ))}
+                        ))}
+                    
+                    
                 </div>
             </div>
             <div className="categoryCircle"></div>
         </div>
     </div>
   )
-}
 
+                            }
 export default Search

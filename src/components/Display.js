@@ -5,13 +5,17 @@ import History from './History';
 import BiologicalInfo from './BiologicalInfo';
 import Video from './Video';
 import BreedEvol from './BreedEvol';
+import { useParams } from 'react-router-dom';
 
 const Display = () => {
     const [current, setCurrent] = useState('History');
-
+    const { dogname } = useParams();
+    // console.log(params);
+    
     return (
     // <div>
         <div className="Display">
+            {/* {dogname} */}
             <div className="displayTabs">
 
                 <button className="tabs" id={current === 'History'? 'active' : 'inactive'} onClick={() => setCurrent('History')}>HISTORY</button>
@@ -25,20 +29,19 @@ const Display = () => {
                 {current === 'History'? <History/> : ''}
                 {current === 'Biological Information'? <BiologicalInfo/> : ''}
                 {current === 'Video'? <Video/> : ''}
-                {current === 'Breed Evolution'? <BreedEvol/> : ''}
+                {current === 'Breed Evolution'? <BreedEvol/> : ''} 
                 {/* <div className='displayIcon'></div>
                     <div className='boxContent'>
-                        <h2 className='dogName'>DOGNAME</h2> 
+                        <h2 className='dogName'>{dogname}</h2> 
                         <div className='dogTitle'>
                             <LoremIpsum p={6} />
                         </div>
                         
-                    </div>
-                </div> */}
-                {/* <div className="categoryCircle"></div> */}
+                    </div> */}
+                </div>
+               <div className="categoryCircle"></div>
 
             </div>
-        </div>
     
 
   )

@@ -6,10 +6,10 @@ import propTypes from 'prop-types'
 
 const DogIcon = ({name, url}) => {
   return (
-    <div className='icon'>
+    <button className='icon'>
         <img src={url}></img>
         <p>{name}</p>
-    </div>
+    </button>
   )
 }
 DogIcon.propTypes = {

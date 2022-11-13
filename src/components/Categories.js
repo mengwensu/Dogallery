@@ -1,14 +1,25 @@
 import React, { Component, useState }  from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Link, Routes, useParams } from 'react-router-dom';
 import dogList from "../dogList.json"
 import { useRef } from "react"
 import propTypes from 'prop-types'
 import DogIcon from './DogIcon';
 import { GoSearch } from "react-icons/go";
+import Display from './Display';
+
+
 const Categories = () => {
 
     const [current, setCurrent] = useState('Herding');
-   
+    const [dogName, setName] = useState('default');
+    // const onClick = () => {
+    //     console.log(current);
+    // }
+    const handleClick = () => () => {
+        // setName(dogName);
+        console.log(dogName);
+    }
+
     return (
 
         <div>
@@ -33,7 +44,9 @@ const Categories = () => {
                     <div className='groupIcons'>
                         {
                             dogList.filter(dog => dog.breed == current).map(filteredDog => (
-                                <a href='/display'><DogIcon name={filteredDog.name} url={filteredDog.url}/></a>
+                                
+                <Link to={`/display/${filteredDog.name}`}><div onClick={() => setName(filteredDog.name)}><DogIcon name={filteredDog.name} url={filteredDog.url}/></div></Link>
+
                                 // < className="exploreButton">Explore Dog Breeds <TfiArrowRight/></a>
 
                                 // console.log(filteredDog.breed)
@@ -41,6 +54,7 @@ const Categories = () => {
                         ))}
                     </div>
                 </div>
+
                 {/* <Routes>
                     <Route path="/{}" element={<Home/>} />
 

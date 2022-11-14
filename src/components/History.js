@@ -1,7 +1,5 @@
 import React, { Component, useState }  from 'react';
-import { LoremIpsum } from 'react-lorem-ipsum';
-import DogIcon from './DogIcon';
-import { json, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import dogArr from "../dogList.json"
 
 const History = () => {

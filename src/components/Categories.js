@@ -1,11 +1,8 @@
 import React, { Component, useState }  from 'react';
-import { Route, Link, Routes, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import dogList from "../dogList.json"
-import { useRef } from "react"
-import propTypes from 'prop-types'
 import DogIcon from './DogIcon';
 import { GoSearch } from "react-icons/go";
-import Display from './Display';
 
 
 const Categories = () => {
@@ -14,13 +11,6 @@ const Categories = () => {
     const [dogName, setName] = useState("");
     const [searchKey, setSearchKey] = useState("")
 
-    const handleKeypress = e => {
-        //it triggers by pressing the enter key
-      if (e.keyCode === 13) {
-        e.preventDefault();
-      }
-    };
-    
     return (
 
         <div>

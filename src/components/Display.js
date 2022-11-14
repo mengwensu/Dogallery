@@ -1,15 +1,11 @@
 import React, { Component, useState }  from 'react';
-import {dogList} from '../dogList.json';
-import { LoremIpsum } from 'react-lorem-ipsum';
 import History from './History';
 import BiologicalInfo from './BiologicalInfo';
 import Video from './Video';
 import BreedEvol from './BreedEvol';
-import { useParams } from 'react-router-dom';
 
 const Display = () => {
     const [current, setCurrent] = useState('History');
-    const { dogname } = useParams();    
 
     return (
         <div className="Display">

@@ -366,6 +366,21 @@ body {
   margin-top: 3%;
   z-index: 2;
 }
+
+/*.displayModel{
+  width: 45vw;
+  height: 45vw;
+  color: #FAF2EB;
+  border-radius: 10%;
+  background-color: #FAF2EB;
+  display: flex; 
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  /* margin-left: 5%; 
+  margin-top: 3%;
+  z-index: 2;
+}*/
 .boxContent {
   width: 40vw;
   height: 40vw;
@@ -611,4 +626,7 @@ z-index: 2;
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
+}
+.displayModel{
+  z-index: 2;
 }

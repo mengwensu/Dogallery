@@ -67,7 +67,7 @@
     {
         "name": "Doberman Pinscher",
         "breed": "Working",
-        "url": "https://assets.stickpng.com/images/5a005b1a092a74e5b928e786.png",
+        "url": "https://www.pngmart.com/files/22/Doberman-PNG-Free-Download.png",
         "3dmodel": "",
         "origin": "Germany",
         "height": "24-28 inches",
@@ -107,7 +107,7 @@
         "name": "Labrador Retriever",
         "breed": "Sporting",
         "url": "https://pngimg.com/uploads/labrador_retriever/labrador_retriever_PNG19.png",
-        "3dmodel": "",
+        "3dmodel": "../Models/Labrador.glb",
         "origin": "United Kingdom",
         "height": "21.5-22.5 inches/54-57 centimeters",
         "weight": "55-80 pounds/25-36 kilograms",
@@ -211,7 +211,7 @@
         "name": "Dalmatian",
         "breed": "NonSporting",
         "url": "https://www.pngarts.com/files/1/Dalmatian-PNG-Free-Download.png",
-        "3dmodel": "",
+        "3dmodel": "../Models/Dalmatian.glb",
         "origin": "Unknown, most closely associated with Dalmatia",
         "height": "19-24 inches/48-61 centimeters",
         "weight": "45-70 pounds/20-32 kilograms",
@@ -224,7 +224,7 @@
         "name": "Bulldog",
         "breed": "NonSporting",
         "url": "https://www.pngplay.com/wp-content/uploads/7/Bulldog-Transparent-PNG.png",
-        "3dmodel": "",
+        "3dmodel": "../Models/BulldogPug.glb",
         "origin": "England",
         "height": "14-15 inches/35.56-38.1 centimeters",
         "weight": "40-50 pounds/18-22.5 kilograms",
@@ -315,7 +315,7 @@
         "name": "German Shepard",
         "breed": "Herding",
         "url": "https://pngimg.com/uploads/german_shepherd/german_shepherd_PNG61.png",
-        "3dmodel": "",
+        "3dmodel": "../Models/GermanShepherd.glb",
         "origin": "Germany",
         "height": "22-26 inches/ 55-65 centimeters",
         "weight": "49-88 pounds/22-40 kilograms",
@@ -432,7 +432,20 @@
         "history": "",
         "biological": "",
         "video": ""
-    },   
+    },
+    {
+        "name": "Greyhound",
+        "breed": "Hound",
+        "url": "https://assets.stickpng.com/images/5afd7d9e6554160a79bea210.png",
+        "3dmodel": "../Models/Greyhound.glb",
+        "origin": "Egypt",
+        "height": "27-30 inches/68.5-76 centimeters",
+        "weight": "60-70 pounds/27-32 kilograms",
+        "lifespan": "10-13 years",
+        "healthissues": "Eye, heart, and NDRG1 polyneuropathy disease",
+        "history": "Don’t be alarmed if the Greyhound looks familiar as if you’ve ever been in a history class that has gone over Egyptian hieroglyphs or watched a history documentary on them you may very well have seen ancient pictures of this dog. As their form may suggest they are fantastic sprinters and were used for catching fast animals.",
+        "video": "KmHAHP6IZA8"
+    },
     {
         "name": "Bloodhound",
         "breed": "Hound",
@@ -458,19 +471,6 @@
         "healthissues": "Knee and heart issues",
         "history": "The stereotype of small dogs being crazy energetic may be untrue with some dog breeds but the Dachsund is not one of them. These very short and very long dogs have an absolutely unmistakable appearance but it is for good reason. They were developed for the exact reason their name suggests as translated from the German it is in, it means Badger Dog and with that context their shape, and aggressiveness, makes a lot more sense.",
         "video": "6G24ZyGRUvc"
-    },
-    {
-        "name": "Greyhound",
-        "breed": "Hound",
-        "url": "https://assets.stickpng.com/images/5afd7d9e6554160a79bea210.png",
-        "3dmodel": "",
-        "origin": "Egypt",
-        "height": "27-30 inches/68.5-76 centimeters",
-        "weight": "60-70 pounds/27-32 kilograms",
-        "lifespan": "10-13 years",
-        "healthissues": "Eye, heart, and NDRG1 polyneuropathy disease",
-        "history": "Don’t be alarmed if the Greyhound looks familiar as if you’ve ever been in a history class that has gone over Egyptian hieroglyphs or watched a history documentary on them you may very well have seen ancient pictures of this dog. As their form may suggest they are fantastic sprinters and were used for catching fast animals.",
-        "video": "KmHAHP6IZA8"
     },
     {
         "name": "Beagle",
@@ -553,7 +553,7 @@
     {
         "name": "Scottish Terrier",
         "breed": "Terrier",
-        "url": "https://www.akc.org/wp-content/uploads/2017/11/Scottish-Terrier-On-White-02.jpg",
+        "url": "https://breed-assets.wisdompanel.com/dog/scottish-terrier/Scottish_Terrier_Color.png",
         "3dmodel": "",
         "origin": "Scotland",
         "height": "10 inches/25 centimeters",
@@ -566,7 +566,7 @@
     {
         "name": "Border Terrier",
         "breed": "Terrier",
-        "url": "https://www.purina.co.nz/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0159_border_terrier.jpg?itok=ItjWVaLv",
+        "url": "https://breed-assets.wisdompanel.com/dog/border-terrier/Border_Terrier_Color_Small_File.png",
         "3dmodel": "",
         "origin": "English-Scottish border",
         "height": "12-15 inches/30.5-38 centimeters",
@@ -592,7 +592,7 @@
     {
         "name": "Airedale Terrier",
         "breed": "Terrier",
-        "url": "https://www.purina-arabia.com/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0187_airedale_terrier.jpg?itok=CIJBMOic",
+        "url": "https://www.dogbible.com/app/images/airedale-terrier-profile-picture-86fc94.png",
         "3dmodel": "",
         "origin": "Aire Valley, Northern England",
         "height": "23 inches",
@@ -605,7 +605,7 @@
     {
         "name": "American Staffordshire Terrier",
         "breed": "Terrier",
-        "url": "https://cdn.britannica.com/39/8139-004-2639C41C/American-Staffordshire-terrier.jpg",
+        "url": "https://images.wagwalkingweb.com/media/breed/american-staffordshire-terrier/appearance/american-staffordshire-terrier.png?auto=compress&fit=max",
         "3dmodel": "",
         "origin": "America",
         "height": "17-19 inches",
@@ -631,7 +631,7 @@
     {
         "name": "Kerry Blue Terrier",
         "breed": "Terrier",
-        "url": "https://www.yourpurebredpuppy.com/dogbreeds/photos-IJKL/kerryblueterriersf3.jpg",
+        "url": "https://images.wagwalkingweb.com/media/breed/kerry-blue-terrier/appearance/kerry-blue-terrier.png",
         "3dmodel": "",
         "origin": "Kerry, Ireland",
         "height": "17.5-19.5 inches",
@@ -644,7 +644,7 @@
     {
         "name": "Pug",
         "breed": "Toy",
-        "url": "https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=2000",
+        "url": "https://www.pngall.com/wp-content/uploads/5/Cute-Pug-Transparent.png",
         "3dmodel": "",
         "origin": "China",
         "height": "12-14 inches/ 30-35 centimeters",
@@ -657,7 +657,7 @@
     {
         "name": "Chihuahua",
         "breed": "Toy",
-        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvvz-tGrRv9oIXKV7pQoUaKUgKGNHlkFZhMg&usqp=CAU",
+        "url": "https://assets.stickpng.com/images/580b57fbd9996e24bc43bbcf.png",
         "3dmodel": "",
         "origin": "Mexico",
         "height": "5-8 inches/12.5-20.5 centimeters",
@@ -670,7 +670,7 @@
     {
         "name": "Shih Tzu",
         "breed": "Toy",
-        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZjvpStH2pV4EapU7DiXYzjCmsbWRa5jzfJA&usqp=CAU",
+        "url": "https://www.pngmart.com/files/12/Shih-Tzu-Puppy-PNG-Transparent-Image.png",
         "3dmodel": "",
         "origin": "Tibet",
         "height": "9-10.5 inches/23-26.5 centimeters",
@@ -683,7 +683,7 @@
     {
         "name": "Silky Terrier",
         "breed": "Toy",
-        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqUvd1sIV92AKBWQVuhfdbk2JCVs3sbN3oEg&usqp=CAU",
+        "url": "https://www.pngall.com/wp-content/uploads/4/Cute-Yorkshire-Terrier-Dog-Transparent.png",
         "3dmodel": "",
         "origin": "Australia",
         "height": "9-10 inches/23-25.5 centimeters",
@@ -696,7 +696,7 @@
     {
         "name": "Affenpinscher",
         "breed": "Toy",
-        "url": "https://www.hundeo.com/wp-content/uploads/2019/10/Affenpinscher-Hund-Profil.jpg",
+        "url": "https://www.trainpetdog.com/wp-content/themes/mytheme/images/about-page-images/Affenpinscher-origin.png",
         "3dmodel": "",
         "origin": "Germany",
         "height": "9-11.5 inches/22.86-29.21 centimeters",
@@ -709,7 +709,7 @@
     {
         "name": "Japanese Chin",
         "breed": "Toy",
-        "url": "https://www.dogtime.com/assets/uploads/2011/01/file_23112_japanese-chin-460x290.jpg",
+        "url": "https://www.worldlydogs.com/uploads/5/2/2/3/52234445/3480263_orig.png",
         "3dmodel": "",
         "origin": "Unknown, possibly China or Korea",
         "height": "8-11 inches/20.32-27.94 centimeters",

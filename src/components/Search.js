@@ -38,25 +38,23 @@ const Search = () => {
         <div className='searchDisplay'>
             <div className='iconMargin'>
                 <div className='groupIcons'> {
-                        dogList.filter(dog => {
-                                if (keyword !== undefined && dog.name.toLowerCase().includes(keyword.toLowerCase())) {
-                                    return true
-                                } else {
-                                    return false
-                                }
-                        }).map(filteredDog => (
-                        
-                            <Link to={`/display/${filteredDog.name}`}>
-    
-                                <div onClick={() => setName(filteredDog.name)}>
-                                    <DogIcon name={filteredDog.name} url={filteredDog.url}/>
-                                </div>
-    
-                            </Link>
+                    dogList.filter(dog => {
+                        if (keyword !== undefined && dog.name.toLowerCase().includes(keyword.toLowerCase())) {
+                            return true
+                        } else {
+                            return false
+                        }
+                    }).map(filteredDog => (
+                    
+                        <Link to={`/display/${filteredDog.name}`}>
 
-                        ))}
-                    
-                    
+                            <div onClick={() => setName(filteredDog.name)}>
+                                <DogIcon name={filteredDog.name} url={filteredDog.url}/>
+                            </div>
+
+                        </Link>
+
+                    ))}
                 </div>
             </div>
             <div className="categoryCircle"></div>

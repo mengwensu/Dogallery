@@ -14,30 +14,38 @@ const Categories = () => {
     const [dogName, setName] = useState("");
     const [searchKey, setSearchKey] = useState("")
 
+    const handleKeypress = e => {
+        //it triggers by pressing the enter key
+      if (e.keyCode === 13) {
+        e.preventDefault();
+      }
+    };
+    
     return (
 
         <div>
             <div className='Categories'>
                 <h1 className="categoryTitle">CATEGORIES</h1>
                 <div className='searchSection'> 
-
                     <input className="searchBar" 
                            type="search" 
                            placeholder="Search" 
                            onChange={(event) => {
                                setSearchKey(event.target.value);
-                           }}>
+                           }}
+                           >
+                              
                     </input> 
+
                     {searchKey === ""? (
-                        // <Link to="/categories">
                             <div>
                                 <button className='search'><GoSearch/></button>
                             </div>
-                        // </Link>
                     ):(
                         <Link to={`/search/${searchKey}`}>
+
                             <div>
-                                <button className='search' onClick={(event) => setSearchKey(event.target.value)}><GoSearch/></button>
+                                <button className='search' type="submit" onClick={(event) => setSearchKey(event.target.value)}  ><GoSearch/></button>
 
                             </div>
                         </Link>

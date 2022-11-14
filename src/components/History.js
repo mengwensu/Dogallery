@@ -15,7 +15,7 @@ const History = () => {
                   {
                   dogArr.filter(dog => dog.name === dogname).map(filteredDog => (
                     <div>
-                      <p>{filteredDog.history}</p>
+                      <p className='historyInfo'>{filteredDog.history}</p>
                     </div>
                   ))}
                </div>

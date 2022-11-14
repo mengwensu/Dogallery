@@ -16,23 +16,23 @@ const BiologicalInfo = () => {
                 <div>
                     <div>
                         <h4 className='origin'>Origin</h4>
-                        <p>{filteredDog.origin}</p>
+                        <p className='bioInfo'>{filteredDog.origin}</p>
                     </div>
                     <div>
                         <h4 className='height'>Height</h4>
-                        <p>{filteredDog.height}</p>
+                        <p className='bioInfo'>{filteredDog.height}</p>
                     </div>
                     <div>
                         <h4 className='weight'>Weight</h4>
-                        <p>{filteredDog.weight}</p>
+                        <p className='bioInfo'>{filteredDog.weight}</p>
                     </div>
                     <div>
                         <h4 className='lifespan'>Life Span</h4>
-                        <p>{filteredDog.lifespan}</p>
+                        <p className='bioInfo'>{filteredDog.lifespan}</p>
                     </div>
                     <div>
                         <h4 className='healthissue'>Health Issues</h4>
-                        <p>{filteredDog.healthissues}</p>
+                        <p className='bioInfo'>{filteredDog.healthissues}</p>
                     </div>
                 </div>
             ))}

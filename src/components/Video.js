@@ -17,6 +17,7 @@ const Video = () => {
 
               </iframe>
           </div>
+          <div className="categoryCircle"></div>
       </div>
       ))
   )

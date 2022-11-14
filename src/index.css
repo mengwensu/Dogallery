@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -237,7 +238,6 @@ body {
   width: 400px;
   padding: 5px 20px;
   opacity: 70%;
-  /* margin: 25px 0; */
   transform: translate(0, -10%);
 
 }
@@ -362,7 +362,7 @@ body {
 .dogTitle{
   width: 40vw;
   height: 40vw;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 
 }
 .dogName {
@@ -552,4 +552,45 @@ z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.origin {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+
+}
+.height {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+    
+}
+.weight {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+    
+}
+.lifespan {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+    
+}
+.healthissue {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+    
+}
+.bioInfo {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+.historyInfo {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
 }

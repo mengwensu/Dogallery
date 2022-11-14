@@ -23,8 +23,7 @@ const Categories = () => {
                            onChange={(event) => {
                                setSearchKey(event.target.value);
                            }}
-                           >
-                              
+                           > 
                     </input> 
 
                     {searchKey === ""? (

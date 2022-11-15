@@ -185,7 +185,7 @@ body {
 }
 
 .homeMessage {
-  font-size: 14px;
+  font-size: 25px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: white;
@@ -477,6 +477,10 @@ body {
 }
 
 .aboutInfo {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #555;
+  font-weight: 300;
   width: 50vw;
   z-index: 2;
 }
@@ -532,9 +536,26 @@ body {
 }
 
 .faqInfo {
-  width: 50vw;
+  width: 70vw;
+  display: block;
+  margin: auto;
   z-index: 2;
 }
+.question {
+  color: #555;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.answer {
+  color: #555;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+
+}
+
 
 /* Contact Page Styling */
 
@@ -560,6 +581,7 @@ min-height: 1000px; */
   overflow: hidden;
   position: relative;
   transform: translate(0, -55%);
+  
   z-index: 1;
 }
 
@@ -581,8 +603,28 @@ min-height: 1000px; */
 }
 
 .contactInfo {
-  width: 50vw;
+  width: 55vw;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #555;
   z-index: 2;
+}
+.email {
+  font-size: 35px;
+  color: #555;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  z-index: 2;
+
+}
+.phone {
+  font-size: 35px;
+  color: #555;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  z-index: 2;
+
 }
 
 .Video {
@@ -673,10 +715,6 @@ min-height: 1000px; */
   font-weight: 200;
 }
 
-.displayModel {
-  z-index: 2;
-  display: flex;
-}
 
 
 .webg1 {
@@ -686,7 +724,9 @@ min-height: 1000px; */
 
 .dogimage {
   margin: auto;
-  width: 80%;
-  height: 80%;
+  width: 85%;
+  height: 85%;
+  display: flex;
+justify-items: center;  
 
 }

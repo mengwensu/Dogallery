@@ -68,7 +68,7 @@ function startRenderer(modelFile, diffuseMap, bumpMap) {
   }, function (error) {
     console.log(`Could not load file: ${error}`);
   })
-  // loadModel({
+  // loadModel({ 
   //   glb: "/Models/GreatDane.jpg",
   //   bump: "/Models/Great_Dane_bump.jpg",
   //   diffuse: "/Models/Great_Dane_dif.jpg"
@@ -175,27 +175,17 @@ const History = () => {
 
     } else {
       console.log("nomodel", dogData.model);
-      imgEl.current.src = "/defaultdog.webp";
+      imgEl.current.src = dogData.image;
       canvasEl.current.hidden = true;
     }
-
-
   });
 
   return (
     <div className='displayBody'>
       <div className='displayIcon'>
 
-        <div className="displayModel">
           <canvas ref={canvasEl} className='webg1'></canvas>
           <img ref={imgEl} className="dogimage" />
-
-          {/* <script src='./Model.js'></script>
-          <script>
-
-          </script> */}
-
-        </div>
 
       </div>
       <div className='boxContent'>

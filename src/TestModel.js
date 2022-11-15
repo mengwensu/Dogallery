@@ -5,42 +5,45 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 
-function loadGLTFModel(scene, glbPath, options) {
-  const { receiveShadow, castShadow } = options;
+function loadGLTFModel(scene, glbPath) {
+  //const { receiveShadow, castShadow } = options;
   return new Promise((resolve, reject) => {
     const loader = new GLTFLoader();
     loader.load(
       glbPath,
-      (gltf) => {
-        const obj = gltf.scene;
-        obj.name = "dinosaur";
-        obj.position.y = 0;
-        obj.position.x = 0;
-        obj.receiveShadow = receiveShadow;
-        obj.castShadow = castShadow;
-        scene.add(obj);
+      (glb) => {
+        console.log(glb);
+        const root = glb.scene;
+        
+        /* Set Model Scale */
+        root.scale.set(0.04, 0.04, 0.04);
 
-        obj.traverse(function (child) {
-          if (child.isMesh) {
-            child.castShadow = castShadow;
-            child.receiveShadow = receiveShadow;
-          }
-        });
+        /* Set Model Position */
+        //root.position.setX();
+        root.position.setY(-0.5);
+        //root.position.setZ();
 
-        resolve(obj);
-      },
-      undefined,
-      function (error) {
-        console.log(error);
-        reject(error);
-      }
-    );
+        /* Set Model Roation */
+        root.rotation.x = 4.8;
+        //root.rotation.y = 0.0;
+        root.rotation.z = 1;
+
+        /* Add Model to Scene */
+        scene.add(root);
+
+    /* Model loading diagnostics */ 
+    }, function(xhr){
+        console.log((xhr.loaded/xhr.total * 100) + "% loaded")
+    }, function(error){
+        console.log('An error occurred')
+    });
   });
 }
 
+/*
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4));
-}
+}*/
 
 const Dinosaur = () => {
   const refContainer = useRef();
@@ -52,51 +55,54 @@ const Dinosaur = () => {
     if (container && !renderer) {
       const scW = container.clientWidth;
       const scH = container.clientHeight;
-      const renderer = new THREE.WebGLRenderer({
+      const canvas = document.querySelector('.webg1');
+      const renderer = new THREE.WebGL1Renderer({
+        _canvas: canvas,
         antialias: true,
-        alpha: true
+        //alpha: true
       });
+
+      renderer.setClearColor(0x000000, 0);
       renderer.setPixelRatio(window.devicePixelRatio);
       renderer.setSize(scW, scH);
+      renderer.shadowMap.enabled = true;
+      renderer.gammaOutput = true;
       renderer.outputEncoding = THREE.sRGBEncoding;
-      container.appendChild(renderer.domElement);
+      //container.appendChild(renderer.domElement);
       setRenderer(renderer);
 
       const scene = new THREE.Scene();
-      const scale = 5.6;
-      const camera = new THREE.OrthographicCamera(
-        -scale,
-        scale,
-        scale,
-        -scale,
-        0.01,
-        50000
-      );
-      const target = new THREE.Vector3(-0.5, 1.2, 0);
-      const initialCameraPosition = new THREE.Vector3(
-        20 * Math.sin(0.2 * Math.PI),
-        10,
-        20 * Math.cos(0.2 * Math.PI)
-      );
-      const ambientLight = new THREE.AmbientLight(0xcccccc, 1);
-      scene.add(ambientLight);
-      const controls = new OrbitControls(camera, renderer.domElement);
-      controls.autoRotate = true;
-      controls.target = target;
+      //const scale = 5.6;
+      const camera = new THREE.PerspectiveCamera(75, scW/scH, 0.1, 1000);
+      camera.position.set(0,1,2);
+      scene.add(camera);
 
-      loadGLTFModel(scene, "./Dinosaur.glb", {
-        receiveShadow: false,
-        castShadow: false
-      }).then(() => {
+      /* Light creation to see model  */
+        const light = new THREE.DirectionalLight(0xffffff, 0.5);
+        light.position.set(2,2,5)
+        scene.add(light)
+
+        const light1 = new THREE.AmbientLight(0xffffff, 0.5);
+        scene.add(light1);
+
+        const light2 = new THREE.PointLight(0xffffff, 0.5);
+        scene.add(light2);
+
+        /* orbital controls */
+        var controls = new OrbitControls( camera, renderer.domElement);
+        controls.update();
+
+
+      loadGLTFModel(scene, "./GreatDane.glb").then(() => {
         animate();
         setLoading(false);
       });
-
-      let req = null;
-      let frame = 0;
+      
+     /* let req = null;
+      let frame = 0;*/
       const animate = () => {
-        req = requestAnimationFrame(animate);
-        /*frame = frame <= 100 ? frame + 1 : frame;
+        /*req = requestAnimationFrame(animate);
+        frame = frame <= 100 ? frame + 1 : frame;
 
         if (frame <= 100) {
           const p = initialCameraPosition;
@@ -110,14 +116,17 @@ const Dinosaur = () => {
           camera.lookAt(target);
         } else {
           controls.update();
-        }
-        */
+        }*/
+        
+        requestAnimationFrame(animate);
         renderer.render(scene, camera);
+        controls.update();
       };
 
       return () => {
-        cancelAnimationFrame(req);
-        renderer.dispose();
+        //cancelAnimationFrame(req);
+        //renderer.dispose();
+        animate();
       };
     }
   }, []);

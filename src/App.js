@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import FAQ from './components/FAQ';
 import Search from './components/Search';
+import TestModel from './TestModel';
 
 function App() {
   return (

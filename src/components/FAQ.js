@@ -26,11 +26,7 @@ const FAQ = () => {
                                  breed you’re looking for isn’t here then go to the American Kennel Club website or a similar website and they’ll 
                                  probably have what you’re looking for.</p>
         </div>
-        <div>
-          <p className='question'>Q: Why do only some of the dogs have 3D models on their pages?  </p>
-          <p className='answer'> A: Again, this takes time! Finding good 3D models for specific dog breeds can take a lot of time or a lot of money
-                                 and even then it’s not guaranteed we’ll be able to use the model as it may not be compatible with our site. </p>
-        </div>
+    
         <div>
           <p className='question'>Q: Why don’t you have a more in-depth explanation of X listed health issue, i.e. dysplasia or bloat? </p>
           <p className='answer'> A: If we were to have an in-depth explanation of every listed health issue for every dog breed then the pages would

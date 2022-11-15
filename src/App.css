@@ -185,7 +185,7 @@ body {
 }
 
 .homeMessage {
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: white;
@@ -477,7 +477,7 @@ body {
 }
 
 .aboutInfo {
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Oswald', sans-serif;
   color: #555;
   font-weight: 300;
@@ -536,7 +536,7 @@ body {
 }
 
 .faqInfo {
-  width: 70vw;
+  width: 80vw;
   display: block;
   margin: auto;
   z-index: 2;
@@ -544,14 +544,16 @@ body {
 .question {
   color: #555;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'Oswald', sans-serif;
+  margin-top: 0;
 }
 
 .answer {
   color: #555;
-  font-size: 16px;
+  font-size: 13px;
   font-family: 'Oswald', sans-serif;
+  margin-top: 0;
   font-weight: 100;
 
 }
@@ -604,14 +606,14 @@ min-height: 1000px; */
 
 .contactInfo {
   width: 55vw;
-  font-size: 30px;
+  font-size: 19px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color: #555;
   z-index: 2;
 }
 .email {
-  font-size: 35px;
+  font-size: 25px;
   color: #555;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
@@ -619,7 +621,7 @@ min-height: 1000px; */
 
 }
 .phone {
-  font-size: 35px;
+  font-size: 25px;
   color: #555;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;

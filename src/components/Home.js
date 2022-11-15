@@ -8,7 +8,7 @@ const Home = () => {
             <div class="welcome">
                 <h1 class="title1">WELCOME TO</h1>
                 <h1 class="title2">DOGALLERY</h1>
-                <p className="homeMessage">Welcome to Dogallery! A place where you can find information on different dog breeds and get a better idea of their size and appearance through the use of 3D models!</p>        
+                <p className="homeMessage">Welcome to Dogallery! The fun and easy tool meant to enhance your learning experience with man’s best friend! So come one, and come all to explore the vast world of everyone’s favorite pet, through the use of 3D models!</p>        
                 <a href="/categories" className="exploreButton">Explore Dog Breeds <TfiArrowRight/></a>
             </div>  
         </div>

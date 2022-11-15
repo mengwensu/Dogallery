@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 import { Route, Routes } from "react-router-dom"
 import NavBar from './components/Navbar';
 import Home from "./components/Home";
@@ -16,14 +16,14 @@ function App() {
       <NavBar />
       <div className="App">
         <Routes>
-          
-          <Route path="/" element={<Home/>} />
-          <Route path="/categories" element={<Categories/>} />
-          <Route path="/display/:dogname" element={<Display/>} />
-          <Route path="/faq" element={<FAQ/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="/search/:keyword" element={<Search/>} />
+
+          <Route path="/" element={<Home />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/display/:dogname" element={<Display />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/search/:keyword" element={<Search />} />
 
         </Routes>
 

@@ -116,7 +116,7 @@ import { OrbitControls } from '../../node_modules/three/examples/jsm/controls/Or
 // }
 // animate();
 
-// console.log(THREE);
+console.log(THREE);
 
 const canvas = document.querySelector('.webg1');
 const scene = new THREE.Scene();
